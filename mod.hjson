@@ -1,0 +1,8 @@
+name: "Upgraded-turret-tiers"
+displayName: "Upgraded turret tiers"
+author: angelOdoom and haznobrain
+description: "Adds upgraded turret tiers. Made to work in tandem with the "advanced content" mod"
+version: "1.0"
+minGameVersion: "146"
+dependencies: [ ]
+hidden: false
