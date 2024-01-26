@@ -20,7 +20,7 @@ copper: {
     type: BasicBulletType
     damage: 11
     speed: 3.5
-    lifetime: 40
+    lifetime: 46
     width: 7
     height: 9
     ammoMultiplier: 3
