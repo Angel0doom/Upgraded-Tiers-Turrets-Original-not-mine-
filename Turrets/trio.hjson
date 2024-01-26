@@ -55,3 +55,8 @@ drawer: {
       }
 ]
 }
+requirements: [
+        copper/120
+        lead/80
+        titanium/20
+]
