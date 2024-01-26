@@ -4,5 +4,3 @@ author: angelOdoom and haznobrain
 description: Adds upgraded turret tiers. Made to work in tandem with the "Upgraded Tiers" mod
 version: 1.0
 minGameVersion: 146
-dependencies: [ ]
-hidden: false
