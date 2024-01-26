@@ -1,13 +1,31 @@
 type: itemTurret
-name: Triot
-description: 
+name: Trio
+description: A 3 barreled upgrade to the duo.
 range: 130
 size: 2
-health: 1150
+health: 375
 targetGround: true
 targetAir: true
 rotateSpeed: 2.8
+recoil: 1
 reload: 13
+ammoUseEffect: casing1
+shoot: {
+        type: ShootAlternate
+        barrels: 3
+        spread: 3.75
+    }
+ammoTypes: {
+copper: {
+    type: BasicBulletType
+    damage: 11
+    speed: 3.5
+    lifetime: 35
+    width: 7
+    height: 9
+    ammoMultiplier: 3
+    }
+}
 drawer: {
     type: DrawTurret
     parts: [
@@ -34,9 +52,6 @@ drawer: {
       y: 0.5
       moveY: -2
       progress: reload
-      }
-      {
-        type: DrawDefault
       }
 ]
 }
