@@ -16,11 +16,11 @@ shoot: {
         source: {
                 type: ShootBarrel
                 barrels: [
-        6, 4.75, 0,
-        3.25, 5.25, 0,
-        0, 8, 0,
-        -3.25, 5.25, 0,
-        -6, 4.75, 0,
+        6, 2.75, 0,
+        3.25, 3.25, 0,
+        0, 6, 0,
+        -3.25, 3.25, 0,
+        -6, 2.75, 0,
                 ]
                 }
         dest: [
@@ -117,7 +117,7 @@ drawer: {
       suffix: -barrel-1
         under: true
       x: 0
-      y: 8
+      y: 6
       moveY: -2
       progress: recoil
       recoilIndex: 1
