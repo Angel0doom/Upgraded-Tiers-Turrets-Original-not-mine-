@@ -60,7 +60,13 @@ pyratite: {
     width: 7
     height: 9
     ammoMultiplier: 4
-    homingPower: 0.09
+    trailChance: 0.03
+    trailEffect: {
+        particles: 1
+        length: 0
+        colorFrom: ffaa5f
+        colorTo: ffaa5f
+        sizeFrom: 6
     }
 }
 drawer: {
