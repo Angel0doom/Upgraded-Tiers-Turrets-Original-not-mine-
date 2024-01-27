@@ -25,6 +25,16 @@ copper: {
     height: 9
     ammoMultiplier: 3
     }
+graphite: {
+    type: BasicBulletType
+    damage: 26
+    reloadMultiplier: 1.3
+    speed: 3.5
+    lifetime: 46
+    width: 7
+    height: 9
+    ammoMultiplier: 2
+    }
 }
 drawer: {
     type: DrawTurret
