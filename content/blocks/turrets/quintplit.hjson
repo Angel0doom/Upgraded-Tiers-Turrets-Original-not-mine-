@@ -37,8 +37,8 @@ copper: {
     damage: 34
     speed: 4
     lifetime: 54
-    width: 7
-    height: 9
+    width: 9
+    height: 11
     ammoMultiplier: 3
     }
 graphite: {
@@ -47,8 +47,8 @@ graphite: {
     reloadMultiplier: 0.7
     speed: 4
     lifetime: 54
-    width: 7
-    height: 9
+    width: 9
+    height: 11
     ammoMultiplier: 2
     }
 silicon: {
@@ -57,8 +57,8 @@ silicon: {
     reloadMultiplier: 1.3
     speed: 4
     lifetime: 54
-    width: 7
-    height: 9
+    width: 9
+    height: 11
     ammoMultiplier: 4
     homingPower: 0.09
     }
@@ -73,8 +73,8 @@ pyratite: {
     backColor: d37f47
     speed: 4
     lifetime: 54
-    width: 7
-    height: 9
+    width: 9
+    height: 11
     ammoMultiplier: 4
     trailChance: 0.03
     trailEffect: {
@@ -96,8 +96,8 @@ blast-compound: {
     backColor: c85c51
     speed: 4
     lifetime: 54
-    width: 7
-    height: 9
+    width: 9
+    height: 11        
     ammoMultiplier: 4
     trailChance: 0.03
     trailEffect: {
