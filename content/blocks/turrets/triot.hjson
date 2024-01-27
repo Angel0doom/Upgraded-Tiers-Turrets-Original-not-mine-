@@ -4,7 +4,7 @@ description: A 3 barreled upgrade to the duo.
 range: 160
 size: 2
 health: 750
-category: turrets
+category: turret
 targetGround: true
 targetAir: true
 rotateSpeed: 2.8
