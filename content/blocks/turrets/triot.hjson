@@ -69,6 +69,30 @@ pyratite: {
         sizeFrom: 2
     }
 }
+blast-compound: {
+    type: BasicBulletType
+    damage: 14
+    splashDamage: 28
+    splashDamageRadius: 24
+    hitEffect: blastExplosion
+    status: burning
+    statusDuration: 300
+    frontColor: ff795e
+    backColor: c85c51
+    speed: 3.5
+    lifetime: 46
+    width: 7
+    height: 9
+    ammoMultiplier: 4
+    trailChance: 0.03
+    trailEffect: {
+        particles: 1
+        length: 0
+        colorFrom: ff795e
+        colorTo: ff795e
+        sizeFrom: 2
+    }
+}
 }
 drawer: {
     type: DrawTurret
