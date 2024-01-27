@@ -5,6 +5,12 @@ range: 216
 size: 3
 health: 2100
 category: turret
+predictTarget: false
+consumes:{
+        coolant: {
+                amount: 0.1
+        }
+}
 targetGround: true
 targetAir: true
 rotateSpeed: 2.6
