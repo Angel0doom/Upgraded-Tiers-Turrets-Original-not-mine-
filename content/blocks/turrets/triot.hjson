@@ -19,7 +19,7 @@ shoot: {
 ammoTypes: {
 copper: {
     type: BasicBulletType
-    damage: 11
+    damage: 16
     speed: 3.5
     lifetime: 46
     width: 7
@@ -28,7 +28,7 @@ copper: {
     }
 graphite: {
     type: BasicBulletType
-    damage: 26
+    damage: 33
     reloadMultiplier: 0.7
     speed: 3.5
     lifetime: 46
@@ -38,7 +38,7 @@ graphite: {
     }
 silicon: {
     type: BasicBulletType
-    damage: 13
+    damage: 14
     reloadMultiplier: 1.3
     speed: 3.5
     lifetime: 46
@@ -49,8 +49,8 @@ silicon: {
     }
 pyratite: {
     type: BasicBulletType
-    damage: 20
-    splashDamage: 5
+    damage: 24
+    splashDamage: 6
     splashDamageRadius: 8
     status: burning
     statusDuration: 300
@@ -73,7 +73,7 @@ pyratite: {
 blast-compound: {
     type: BasicBulletType
     damage: 14
-    splashDamage: 28
+    splashDamage: 36
     splashDamageRadius: 24
     hitEffect: blastExplosion
     status: blasted
