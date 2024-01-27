@@ -66,7 +66,7 @@ pyratite: {
         length: 0
         colorFrom: ffaa5f
         colorTo: ffaa5f
-        sizeFrom: 6
+        sizeFrom: 2
     }
 }
 }
