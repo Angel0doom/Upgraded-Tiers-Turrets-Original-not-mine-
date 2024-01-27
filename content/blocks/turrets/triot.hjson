@@ -75,8 +75,7 @@ blast-compound: {
     splashDamage: 28
     splashDamageRadius: 24
     hitEffect: blastExplosion
-    status: burning
-    statusDuration: 300
+    status: blasted
     frontColor: ff795e
     backColor: c85c51
     speed: 3.5
