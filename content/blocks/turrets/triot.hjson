@@ -1,4 +1,4 @@
-type: ItemTurret
+type: itemTurret
 name: Triot
 description: A 3 barreled upgrade to the duo.
 range: 160
