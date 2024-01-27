@@ -46,6 +46,22 @@ silicon: {
     ammoMultiplier: 4
     homingPower: 0.09
     }
+pyratite: {
+    type: BasicBulletType
+    damage: 20
+    splashDamage: 5
+    splashDamageRadius: 8
+    status: burning
+    statusDuration: 300
+    frontColor: ffaa5f
+    backColor: d37f47
+    speed: 3.5
+    lifetime: 46
+    width: 7
+    height: 9
+    ammoMultiplier: 4
+    homingPower: 0.09
+    }
 }
 drawer: {
     type: DrawTurret
