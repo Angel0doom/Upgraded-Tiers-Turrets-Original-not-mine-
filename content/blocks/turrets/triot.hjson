@@ -73,6 +73,7 @@ drawer: {
       y: 3.5
       moveY: -2
       progress: recoil
+      recoilIndex: 1
       }
       {
       type: RegionPart
@@ -81,6 +82,7 @@ drawer: {
       y: 2.5
       moveY: -2
       progress: recoil
+      recoilIndex: 2
       }
       {
       type: RegionPart
@@ -89,6 +91,7 @@ drawer: {
       y: 2.5
       moveY: -2
       progress: recoil
+      recoilIndex: 0
       }
 ]
 }
