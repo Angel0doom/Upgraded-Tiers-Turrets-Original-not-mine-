@@ -109,8 +109,8 @@ drawer: {
       {
       type: RegionPart
       suffix: -barrel2
-      x: 3.75
-      y: 2.5
+      x: 3.25
+      y: 5.25
       moveY: -2
       progress: recoil
       recoilIndex: 2
@@ -118,8 +118,26 @@ drawer: {
       {
       type: RegionPart
       suffix: -barrel3
-      x: -3.75
-      y: 2.5
+      x: 3.25
+      y: 5.25
+      moveY: -2
+      progress: recoil
+      recoilIndex: 0
+      }
+      {
+      type: RegionPart
+      suffix: -barrel4
+      x: 6
+      y: 4.75
+      moveY: -2
+      progress: recoil
+      recoilIndex: 0
+      }
+      {
+      type: RegionPart
+      suffix: -barrel5
+      x: 6
+      y: 4.75
       moveY: -2
       progress: recoil
       recoilIndex: 0
@@ -127,7 +145,8 @@ drawer: {
 ]
 }
 requirements: [
-        copper/120
-        lead/80
-        titanium/20
+        copper/500
+        lead/200
+        titanium/150
+        silicon/250
 ]
