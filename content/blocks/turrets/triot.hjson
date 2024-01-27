@@ -69,6 +69,7 @@ pyratite: {
         sizeFrom: 6
     }
 }
+}
 drawer: {
     type: DrawTurret
     parts: [
