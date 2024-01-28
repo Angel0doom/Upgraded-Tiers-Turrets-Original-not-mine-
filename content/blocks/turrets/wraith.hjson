@@ -19,19 +19,21 @@ ammoUseEffect: casing1
 ammoTypes: {
 thorium: {
     type: BasicBulletType
+    inaccuracy: 15
     damage: 105
     speed: 10
     lifetime: 30.8
-    width: 9
-    height: 12
+    width: 14
+    fragVelocityMin: 1
+    height: 20
     ammoMultiplier: 3
-    fragBullets: 1
+    fragBullets: 3
     fragRandomSpread: 17
        fragBullet: {
           lifetime: 30.8
-          speed: 7
+          speed: 3
           homingPower: 0.06
-          damage: 45
+          damage: 15
       }
 }
 }
