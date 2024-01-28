@@ -34,7 +34,7 @@ thorium: {
     height: 20
     ammoMultiplier: 1
     fragBullets: 5
-    fragRandomSpread: 17
+    fragRandomSpread: 22
        fragBullet: {
           lifetime: 34
           speed: 6
