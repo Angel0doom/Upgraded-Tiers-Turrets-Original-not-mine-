@@ -1,11 +1,13 @@
 name: Prefigure 
-desctiption:
 size: 6
-type: itemTurret
+type: ItemTurret
 description: test
 ammoPerShot: 70
+health: 3670
 range: 465
 reload: 375
+recoil: 8
+category: turret
 ammoTypes: {
     surge-alloy: {
         damage: 2750
