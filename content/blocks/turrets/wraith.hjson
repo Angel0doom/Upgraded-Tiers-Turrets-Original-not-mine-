@@ -28,10 +28,10 @@ thorium: {
     fragBullets: 1
     fragRandomSpread: 17
        fragBullet: {
-          lifetime: 14
-          speed: 12
-          homingPower: 0.02
-          damage: 25
+          lifetime: 26
+          speed: 4
+          homingPower: 0.06
+          damage: 45
       }
 }
 }
