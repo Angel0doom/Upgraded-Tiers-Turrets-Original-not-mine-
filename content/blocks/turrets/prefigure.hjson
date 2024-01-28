@@ -14,7 +14,7 @@ ammoTypes: {
     surge-alloy: {
         damage: 2750
         type: PointBulletType
-        status: unmoving
+        status: sapped
         statusDuration: 165
         length: 465
           fragBullets: 1
