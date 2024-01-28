@@ -1,7 +1,8 @@
 name: Prefigure 
 desctiption:
+size: 6
 size: 375
-type: ItemTurret
+type: itemTurret
 description: test
 ammoPerShot: 70
 range: 465
