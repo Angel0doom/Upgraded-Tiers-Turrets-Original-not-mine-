@@ -16,6 +16,11 @@ rotateSpeed: 1.8
 recoil: 5
 reload: 6.5
 ammoUseEffect: casing1
+shoot: {
+    type: ShootAlternate
+    barrels: 2
+    spread: 16
+}
 ammoTypes: {
 thorium: {
     type: BasicBulletType
@@ -35,7 +40,7 @@ thorium: {
           homingPower: 0.06
           damage: 15
       }
-}
+   }
 }
 requirements: [
         thorium/600
