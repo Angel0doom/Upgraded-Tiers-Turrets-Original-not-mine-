@@ -13,8 +13,8 @@ recoil: 8
 ammoTypes: {
     surge-alloy: {
         damage: 2750
-        type: basicBulletType
-        status: sapped
+        type: pointBulletType
+        status: unmoving
         statusDuration: 165
         length: 465
           fragBullets: 1
