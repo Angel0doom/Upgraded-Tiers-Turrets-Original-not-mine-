@@ -13,7 +13,7 @@ recoil: 8
 ammoTypes: {
     surge-alloy: {
         damage: 2750
-        type: PointBulletType
+        type: basicBulletType
         status: sapped
         statusDuration: 165
         length: 465
@@ -24,7 +24,7 @@ ammoTypes: {
               effect: coreBuildShockwave
               splashDamage: 300
               splashDamageRadius: 56
-              lifetime: 1
+              lifetime: 0
               speed: 0
               height: 0
               width: 0
