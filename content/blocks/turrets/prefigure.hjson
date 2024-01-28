@@ -4,7 +4,7 @@ type: itemTurret
 category: turret
 description: test
 ammoPerShot: 70
-itemCapacity: 70
+maxAmmo: 70
 health: 3670
 range: 465
 reload: 60
