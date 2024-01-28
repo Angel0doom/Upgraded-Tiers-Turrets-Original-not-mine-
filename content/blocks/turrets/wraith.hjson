@@ -40,8 +40,8 @@ ammoTypes: {
 thorium: {
     type: BasicBulletType
     damage: 95
-    speed: 124
-    lifetime: 54
+    speed: 2.5
+    lifetime: 124
     width: 9
     height: 12
     ammoMultiplier: 3
