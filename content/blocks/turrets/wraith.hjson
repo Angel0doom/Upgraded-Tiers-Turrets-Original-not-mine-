@@ -40,16 +40,16 @@ ammoTypes: {
 thorium: {
     type: BasicBulletType
     damage: 95
-    speed: 6
-    lifetime: 52
+    speed: 12
+    lifetime: 26
     width: 9
     height: 12
     ammoMultiplier: 3
     fragBullets: 1
     fragRandomSpread: 17
        fragBullet: {
-          lifetime: 16
-          speed: 6
+          lifetime: 14
+          speed: 12
           homingPower: 0.02
           damage: 25
       }
