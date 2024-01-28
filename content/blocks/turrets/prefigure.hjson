@@ -8,7 +8,6 @@ range: 465
 reload: 300
 ammoTypes: {
     surge-alloy: {
-        trailEffect: 
         damage: 2750
         type: PointBulletType
         status: unmoving
