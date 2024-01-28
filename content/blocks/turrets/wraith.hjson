@@ -54,6 +54,7 @@ thorium: {
           damage: 25
       }
 }
+}
 requirements: [
         copper/500
         lead/200
