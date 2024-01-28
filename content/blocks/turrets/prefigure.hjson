@@ -1,12 +1,13 @@
 name: Prefigure 
 size: 5
 type: itemTurret
+category: turret
 description: test
 ammoPerShot: 70
 itemCapacity: 70
 health: 3670
 range: 465
-reload: 375
+reload: 60
 rotateSpeed: 1.7
 recoil: 8
 ammoTypes: {
