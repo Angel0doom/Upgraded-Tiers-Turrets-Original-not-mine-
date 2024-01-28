@@ -7,7 +7,7 @@ health: 3150
 category: turret
 consumes:{
         coolant: {
-                amount: 0.5
+                amount: 0.2
         }
 }
 targetGround: true
