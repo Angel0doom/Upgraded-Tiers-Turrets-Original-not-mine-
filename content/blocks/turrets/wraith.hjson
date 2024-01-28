@@ -24,7 +24,7 @@ shoot: {
 ammoTypes: {
 thorium: {
     type: BasicBulletType
-    inaccuracy: 15
+    inaccuracy: 5
     damage: 105
     speed: 10
     lifetime: 30.8
