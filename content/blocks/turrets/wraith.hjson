@@ -37,7 +37,7 @@ thorium: {
 }
 requirements: [
         thorium/600
-        platanium/750
+        plastanium/750
         titanium/575
         silicon/400
         copper/800
