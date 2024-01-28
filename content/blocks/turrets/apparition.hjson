@@ -30,7 +30,7 @@ thorium: {
     speed: 11
     lifetime: 34
     width: 14
-    fragVelocityMin: 1
+    fragVelocityMin: 0.8
     height: 20
     ammoMultiplier: 1
     fragBullets: 5
