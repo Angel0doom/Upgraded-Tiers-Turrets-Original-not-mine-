@@ -1,1 +1,62 @@
 name: Wraith
+type: itemTurret
+description: A devastating turret made to conquer
+range: 308
+size: 5
+health: 3150
+category: turret
+consumes:{
+        coolant: {
+                amount: 0.5
+        }
+}
+targetGround: true
+targetAir: true
+rotateSpeed: 1.8
+recoil: 5
+reload: 9
+ammoUseEffect: casing1
+shoot: {
+        type: ShootMulti
+        source: {
+                type: ShootBarrel
+                barrels: [
+        6, -2.75, 0,
+        3.25, -1.25, 0,
+        0, 4, 0,
+        -3.25, -1.25, 0,
+        -6, -2.75, 0,
+                ]
+                }
+        dest: [
+        {
+        type: ShootPattern
+        shots: 2
+        shotDelay: 3
+        }
+        ]
+}
+ammoTypes: {
+thorium: {
+    type: BasicBulletType
+    damage: 95
+    speed: 124
+    lifetime: 54
+    width: 9
+    height: 12
+    ammoMultiplier: 3
+    fragBullets: 1
+    fragRandomSpread: 17
+       fragBullet: {
+          lifetime: 16
+          speed: 2.5
+          homingPower: 0.02
+          damage: 25
+      }
+}
+requirements: [
+        copper/500
+        lead/200
+        titanium/150
+        silicon/250
+]
