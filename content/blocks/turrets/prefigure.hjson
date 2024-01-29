@@ -18,6 +18,7 @@ ammoTypes: {
     surge-alloy: {
         damage: 2750
         type: pointBulletType
+        despawnEffect: instBomb
         trailEffect: instTrail
         status: unmoving
         statusDuration: 165
