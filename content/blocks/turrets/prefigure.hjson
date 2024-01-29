@@ -11,6 +11,9 @@ reload: 210
 rotateSpeed: 1.2
 recoil: 8
 shootSound: railgun
+consumes: {
+    power: 20.8
+        }
 ammoTypes: {
     surge-alloy: {
         damage: 2750
