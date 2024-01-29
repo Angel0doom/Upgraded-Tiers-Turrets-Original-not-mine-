@@ -25,6 +25,7 @@ shoot: {
 ammoTypes: {
 thorium: {
     type: BasicBulletType
+    fragOnDespawn: false
     inaccuracy: 4
     damage: 130
     speed: 11
