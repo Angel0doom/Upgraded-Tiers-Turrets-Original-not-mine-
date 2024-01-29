@@ -11,6 +11,7 @@ reload: 210
 rotateSpeed: 1.2
 recoil: 8
 predictTarget: false
+unitSort: strongest
 shootSound: railgun
 consumes: {
     power: 20.8
