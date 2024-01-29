@@ -8,6 +8,11 @@ maxAmmo: 70
 health: 3670
 range: 560
 reload: 210
+consumes:{
+        coolant: {
+                amount: 1
+        }
+}
 rotateSpeed: 1.2
 recoil: 8
 predictTarget: false
