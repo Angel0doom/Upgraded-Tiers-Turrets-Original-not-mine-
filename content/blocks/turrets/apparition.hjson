@@ -26,7 +26,7 @@ ammoTypes: {
 thorium: {
     type: BasicBulletType
     fragOnDespawn: false
-    inaccuracy: 4
+    inaccuracy: 2
     damage: 130
     speed: 11
     lifetime: 34
@@ -39,10 +39,10 @@ thorium: {
        fragBullet: {
           lifetime: 34
           speed: 6
-          pierceCap: 15
+          pierceCap: 3
           homingPower: 0.11
-          damage: 15
-          splashDamage: 35
+          damage: 10
+          splashDamage: 15
           splashDamageRadius: 16
       }
    }
