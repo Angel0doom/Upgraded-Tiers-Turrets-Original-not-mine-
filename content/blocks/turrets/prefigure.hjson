@@ -10,6 +10,7 @@ range: 560
 reload: 210
 rotateSpeed: 1.2
 recoil: 8
+predictTarget: false
 shootSound: railgun
 consumes: {
     power: 20.8
