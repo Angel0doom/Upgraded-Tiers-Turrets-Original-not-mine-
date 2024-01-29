@@ -14,6 +14,7 @@ ammoTypes: {
     surge-alloy: {
         damage: 2750
         type: pointBulletType
+        trailEffect: instTrail
         status: unmoving
         statusDuration: 165
         length: 465
