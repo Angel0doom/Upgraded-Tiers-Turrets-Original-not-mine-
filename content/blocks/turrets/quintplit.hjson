@@ -122,7 +122,6 @@ surge-alloy: {
     lightningLength: 6
     lightningLengthRand: 4
     lightningColor: f2e878
-    reloadMultiplier: 1.3
     frontColor: f2e878
     backColor: e8d074
     speed: 4
