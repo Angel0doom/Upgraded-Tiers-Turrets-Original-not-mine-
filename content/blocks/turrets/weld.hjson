@@ -1,16 +1,16 @@
 type: ItemTurret
 name: Weld
 description: A 2nd tier fuse, built for destruction.
-reload: 40
+reload: 30
 shootSound: shotgun
 recoil: 4
 size: 4
 category: turret
 range: 120
 consumes: {
-  power: 7
+  power: 8
   coolant: {
-      amount: 0.2
+      amount: 0.3
         }
     }
 shoot: {
