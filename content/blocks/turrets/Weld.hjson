@@ -1,0 +1,32 @@
+type: ItemTurret
+name: Weld
+description: A 2nd tier fuse, built for destruction.
+reload: 10
+shootSound: shotgun
+recoil: 4
+size: 4
+category: turret
+range: 120
+shoot: {
+  type: ShootSpread
+  spread: 15
+  shots: 4
+}
+ammoTypes: {
+  thorium: {
+    type: ShrapnelBulletType
+    fromColor: 6d6d6d 
+    toColor: ffffff
+    length: 120
+    damage: 135
+    speed: 4
+    shootEffect: {
+      type: ParticleEffect
+      line: true
+      cone: 10
+      length: 12
+      colorFrom: b6b6b6
+      colorTo: 6d6d6d 
+    }
+    }
+}
