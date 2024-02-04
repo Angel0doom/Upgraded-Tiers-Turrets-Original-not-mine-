@@ -8,6 +8,10 @@ size: 5
 category: turret
 range: 150
 consumes: {
+  liquids: {
+    liquid: oil
+    ammount: 0.3
+}
   power: 12
   coolant: {
       amount: 0.2
@@ -15,7 +19,7 @@ consumes: {
     }
 shoot: {
   type: ShootSpread
-  spread: 4
+  spread: 6
   shots: 10
 }
 ammoTypes: {
@@ -24,7 +28,7 @@ ammoTypes: {
     fromColor: 6d6d6d 
     toColor: ffffff
     length: 150
-    damage: 100
+    damage: 160
     speed: 4
     shootEffect: {
       type: ParticleEffect
