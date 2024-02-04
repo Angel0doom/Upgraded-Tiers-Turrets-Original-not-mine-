@@ -16,12 +16,15 @@ rotateSpeed: 1.8
 recoil: 5
 reload: 6.5
 ammoUseEffect: casing4
+shake: 3
 inaccuracy: 5
 shoot: {
     type: ShootAlternate
     barrels: 2
-    spread: 7
+    spread: 9
 }
+shootSound: shootBig
+shootEffect: shootBig
 ammoTypes: {
 thorium: {
     type: BasicBulletType
