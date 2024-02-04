@@ -19,7 +19,7 @@ ammoUseEffect: casing4
 shoot: {
     type: ShootAlternate
     barrels: 2
-    spread: 16
+    spread: 7
 }
 ammoTypes: {
 thorium: {
@@ -34,12 +34,34 @@ thorium: {
     ammoMultiplier: 3
     fragBullets: 3
     fragRandomSpread: 32
+        pierce: true
+        pierceCap: 10
        fragBullet: {
           lifetime: 30.8
           speed: 3
           homingPower: 0.06
           homingRange: 46
           damage: 15
+      }
+   }
+graphite: {
+    type: BasicBulletType
+    inaccuracy: 5
+    damage: 75
+    speed: 10
+    lifetime: 30.8
+    width: 14
+    fragVelocityMin: 0.6
+    height: 20
+    ammoMultiplier: 2
+    fragBullets: 2
+    fragRandomSpread: 32
+       fragBullet: {
+          lifetime: 30.8
+          speed: 3
+          homingPower: 0.06
+          homingRange: 46
+          damage: 10
       }
    }
 }
