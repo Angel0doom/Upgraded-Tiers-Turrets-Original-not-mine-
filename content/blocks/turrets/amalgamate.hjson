@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Amalgamate 
-description: Perilous.
+description: A disastrous turret used for wide are. Requires lubricant to fire. Perilous.
 reload: 45
 shootSound: shotgun
 recoil: 6
