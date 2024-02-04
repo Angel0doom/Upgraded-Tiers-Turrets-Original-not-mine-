@@ -1,0 +1,45 @@
+type: ItemTurret
+name: Amalgamate 
+description: Perilous.
+reload: 45
+shootSound: shotgun
+recoil: 6
+size: 5
+category: turret
+range: 150
+consumes: {
+  power: 12
+  coolant: {
+      amount: 0.2
+        }
+    }
+shoot: {
+  type: ShootSpread
+  spread: 4
+  shots: 10
+}
+ammoTypes: {
+  blast-compound: {
+    type: ShrapnelBulletType
+    fromColor: 6d6d6d 
+    toColor: ffffff
+    length: 150
+    damage: 100
+    speed: 4
+    shootEffect: {
+      type: ParticleEffect
+      line: true
+      cone: 10
+      length: 12
+      colorFrom: b6b6b6
+      colorTo: 6d6d6d 
+    }
+    }
+}
+requirements: [
+   silicon/1
+   thorium/1
+   surge-alloy/1
+   titanium/1
+   lead/1
+]
