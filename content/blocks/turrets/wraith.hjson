@@ -41,8 +41,8 @@ thorium: {
         pierceCap: 10
         backColor: ffbef5
        fragBullet: {
-          lifetime: 30.8
-          speed: 3
+          lifetime: 5
+          speed: 10
           homingPower: 0.06
           homingRange: 46
           damage: 15
@@ -68,8 +68,8 @@ surge-alloy: {
         lightningColor: f2e878
         backColor: f2e878
        fragBullet: {
-          lifetime: 30.8
-          speed: 3
+          lifetime: 5
+          speed: 10
           homingPower: 0.06
           homingRange: 46
           damage: 18
@@ -88,8 +88,8 @@ graphite: {
     fragBullets: 2
     fragRandomSpread: 32
        fragBullet: {
-          lifetime: 30.8
-          speed: 3
+          lifetime: 5
+          speed: 10
           homingPower: 0.06
           homingRange: 46
           damage: 10
