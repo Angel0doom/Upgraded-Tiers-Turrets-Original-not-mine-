@@ -16,6 +16,7 @@ rotateSpeed: 1.8
 recoil: 5
 reload: 6.5
 ammoUseEffect: casing4
+inaccuracy: 5
 shoot: {
     type: ShootAlternate
     barrels: 2
@@ -24,7 +25,6 @@ shoot: {
 ammoTypes: {
 thorium: {
     type: BasicBulletType
-    inaccuracy: 5
     damage: 105
     speed: 10
     lifetime: 30.8
@@ -36,6 +36,7 @@ thorium: {
     fragRandomSpread: 32
         pierce: true
         pierceCap: 10
+        backColor: ffbef5
        fragBullet: {
           lifetime: 30.8
           speed: 3
@@ -44,9 +45,36 @@ thorium: {
           damage: 15
       }
    }
+surge-alloy: {
+    type: BasicBulletType
+    damage: 135
+    speed: 10
+    lifetime: 30.8
+    width: 14
+    fragVelocityMin: 0.6
+    height: 20
+    ammoMultiplier: 3
+    fragBullets: 3
+    fragRandomSpread: 32
+        pierce: true
+        pierceCap: 10
+        lightning: 2
+        lightningLength: 6
+        lightningLengthRand: 4
+        lightningDamage: 18
+        lightningColor: f2e878
+        backColor: f2e878
+       fragBullet: {
+          lifetime: 30.8
+          speed: 3
+          homingPower: 0.06
+          homingRange: 46
+          damage: 18
+      }
+   }
 graphite: {
     type: BasicBulletType
-    inaccuracy: 5
+ 
     damage: 75
     speed: 10
     lifetime: 30.8
