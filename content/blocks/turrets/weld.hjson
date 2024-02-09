@@ -36,6 +36,15 @@ ammoTypes: {
       colorFrom: b6b6b6
       colorTo: 6d6d6d 
     }
+smokeEffect: {
+      lifetime: 12
+      type: ParticleEffect
+      line: true
+      cone: 10
+      length: 24
+      colorFrom: b6b6b6
+      colorTo: b6b6b6 
+    }
     }
   surge-alloy: {
     type: ShrapnelBulletType
@@ -53,6 +62,16 @@ ammoTypes: {
       colorFrom: f2e878
       colorTo: f2e878 
     }
+smokeEffect: {
+      lifetime: 12
+      type: ParticleEffect
+      line: true
+      cone: 10
+      length: 24
+      colorFrom: f2e878
+      colorTo: f2e878 
+    }
+    fragOnHit: false
     frags: 5
     fragRandomSpread: 60
     fragBullet: {
