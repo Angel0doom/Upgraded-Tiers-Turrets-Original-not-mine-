@@ -28,6 +28,7 @@ ammoTypes: {
     damage: 135
     speed: 4
     shootEffect: {
+      lifetime: 12
       type: ParticleEffect
       line: true
       cone: 10
@@ -44,6 +45,7 @@ ammoTypes: {
     damage: 145
     speed: 4
     shootEffect: {
+      lifetime: 12
       type: ParticleEffect
       line: true
       cone: 10
