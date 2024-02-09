@@ -21,8 +21,8 @@ shoot: {
 ammoTypes: {
   thorium: {
     type: ShrapnelBulletType
-    fromColor: 6d6d6d 
-    toColor: ffffff
+    fromColor: ffffff 
+    toColor: f9a3c7
     length: 120
     damage: 135
     speed: 4
@@ -30,10 +30,33 @@ ammoTypes: {
       type: ParticleEffect
       line: true
       cone: 10
-      length: 12
+      length: 24
       colorFrom: b6b6b6
       colorTo: 6d6d6d 
     }
+    }
+  surge-alloy: {
+    type: ShrapnelBulletType
+    fromColor: ffffff 
+    toColor: f2e878
+    length: 120
+    damage: 145
+    speed: 4
+    shootEffect: {
+      type: ParticleEffect
+      line: true
+      cone: 10
+      length: 24
+      colorFrom: f2e878
+      colorTo: f2e878 
+    }
+    frags: 5
+    fragRandomSpread: 60
+    fragBullet: {
+      type: LightningBulletType
+      lightningLength: 6
+      damage: 25
+      lightningColor: f2e878
     }
 }
 requirements: [
