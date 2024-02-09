@@ -24,6 +24,7 @@ shoot: {
 }
 ammoTypes: {
   blast-compound: {
+fragOnHit: false
     type: ShrapnelBulletType
     fromColor: 6d6d6d 
     toColor: ffffff
