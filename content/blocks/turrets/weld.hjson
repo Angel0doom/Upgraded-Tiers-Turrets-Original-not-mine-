@@ -47,6 +47,7 @@ smokeEffect: {
     }
     }
   surge-alloy: {
+fragOnHit: false
     type: ShrapnelBulletType
     fromColor: ffffff 
     toColor: f2e878
