@@ -39,6 +39,30 @@ ammoTypes: {
       colorTo: 6d6d6d 
     }
     }
+  surge-alloy: {
+    type: ShrapnelBulletType
+    fromColor: ffffff 
+    toColor: f2e878
+    length: 120
+    damage: 175
+    speed: 4
+    shootEffect: {
+      type: ParticleEffect
+      line: true
+      cone: 10
+      length: 24
+      colorFrom: f2e878
+      colorTo: f2e878 
+    }
+    frags: 5
+    fragRandomSpread: 60
+    fragBullet: {
+      type: LightningBulletType
+      lightningLength: 9
+      damage: 45
+      lightningColor: f2e878
+    }
+}
 }
 requirements: [
    silicon/1
