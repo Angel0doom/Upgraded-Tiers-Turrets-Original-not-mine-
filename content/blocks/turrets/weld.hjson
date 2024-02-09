@@ -4,6 +4,7 @@ description: A 2nd tier fuse, built for destruction.
 reload: 30
 shootSound: shotgun
 recoil: 4
+shootEffect: none
 size: 4
 category: turret
 range: 120
