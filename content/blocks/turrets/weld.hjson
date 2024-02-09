@@ -59,6 +59,7 @@ ammoTypes: {
       lightningColor: f2e878
     }
 }
+}
 requirements: [
    silicon/1
    thorium/1
