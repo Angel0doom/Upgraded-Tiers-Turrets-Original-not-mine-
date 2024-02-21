@@ -1,0 +1,12 @@
+name: Signet wall
+insulated: true
+size: 3
+health: 12620
+description: Protects structures from enemy projectiles.
+  requirements: [
+    signet/56
+    oxide/140
+  ]
+  research: signet-wall
+type: Wall
+category: defense
