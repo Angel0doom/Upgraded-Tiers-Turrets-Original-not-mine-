@@ -6,7 +6,7 @@ description:
   requirements: [
     signet/24
     oxide/56
-  ]
+]
   research: sheilded-wall
   research: signet
 type: Wall
