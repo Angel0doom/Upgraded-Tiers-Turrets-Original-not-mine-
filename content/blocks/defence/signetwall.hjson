@@ -1,0 +1,13 @@
+name: Signet wall
+insulated: true
+size: 2
+health: 6310
+description: 
+  requirements: [
+    signet/24
+    oxide/56
+  ]
+  research: sheilded-wall
+  research: signet
+type: Wall
+category: defense
