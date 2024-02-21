@@ -18,12 +18,12 @@ shoot: {
   barrels: 7
   spread: 3
   shotDelay: 20
-  }
 consumes: {
   liquids: [
     arkycite/3
   ]
 }
+  }
 recoil: 0.4
 ammoTypes: {
   oxide: {
