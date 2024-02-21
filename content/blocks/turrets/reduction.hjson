@@ -1,7 +1,7 @@
 name: Reduction
 description: Discharges huge energy streams. requires extensive Arkycite.
 size: 5
-inaccuracy: 80
+inaccuracy: 50
 reload: 68
 range: 224
 category: turret
@@ -14,7 +14,7 @@ requirements: [
   oxide/450
 ]
 shoot: {
-  shots: 50
+  shots: 70
 }
 ammoTypes: {
   oxide: {
@@ -23,6 +23,6 @@ ammoTypes: {
   knockback: 7
   splashDamage: 35
   splashDamageRadius: 0.75
-  speed: 14
+  speed: 20
   lifetime: 30
 }}
