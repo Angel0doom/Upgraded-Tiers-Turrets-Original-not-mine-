@@ -15,10 +15,11 @@ consumes: {
    items: [
       silicon/8
    ]
-   liquids: {
+   liquid: {
       liquid: nitrogen
       ammount: 32
-   }}
+   }
+}
 research: phase-synthesizer
 research: origin
 requirements: [
