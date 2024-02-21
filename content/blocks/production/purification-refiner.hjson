@@ -16,8 +16,7 @@ consumes: {
       silicon/8
    ]
    liquid: {
-      liquid: nitrogen
-      ammount: 32
+      nitrogen/32
    }}
 research: phase-synthesizer
 research: origin
