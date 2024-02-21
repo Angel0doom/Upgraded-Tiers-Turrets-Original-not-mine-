@@ -1,9 +1,9 @@
 name: Reduction
 description: Discharges huge energy streams. requires extensive Arkycite.
 size: 5
-inaccuracy: 5
-reload: 0.5
-range: 236
+inaccuracy: 80
+reload: 68
+range: 224
 category: turret
 type: itemTurret
 requirements: [
@@ -14,23 +14,16 @@ requirements: [
   oxide/450
 ]
 shoot: {
-  type: ShootAlternate 
-  barrels: 7
-  spread: 3
-  shotDelay: 20
-consumes: {
-  liquids: [
-    arkycite/3
-  ]
+  shots: 50
+  shotDelay: 70
 }
-  }
-recoil: 0.4
 ammoTypes: {
   oxide: {
-     damage: 12
-     BulletType: BasicBulletType 
-     lifetime: 30
-     speed: 7
-     pierce: true
-}
-}
+  bulletType: explosionBulletType
+  damage: 56.25
+  knockback: 7
+  splashDamage: 35
+  splashDamageRadius: 0.75
+  speed: 14
+  lifetime: 30
+}}
