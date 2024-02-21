@@ -17,7 +17,7 @@ consumes: {
    ]
    liquid: {
       liquid: nitrogen
-      ammount: 1.875
+      ammount: 32
    }}
 research: phase-synthesizer
 research: origin
