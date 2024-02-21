@@ -15,7 +15,6 @@ requirements: [
 ]
 shoot: {
   shots: 50
-  shotDelay: 70
 }
 ammoTypes: {
   oxide: {
