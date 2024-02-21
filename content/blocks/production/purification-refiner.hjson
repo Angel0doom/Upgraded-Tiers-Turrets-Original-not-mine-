@@ -3,8 +3,8 @@ desctiption: Fuses Silicon and Nitrogen into Signet. Requires heat.
 type: HeatCrafter
 health: 1650
 heatRequirement: 45
-itemOutput: signet/3
-craftTime: 300
+outputItem: signet/3
+craftTime: 180
 size: 4
 liquidCapacity: 96
 hasLiquids: true
@@ -19,7 +19,8 @@ consumes: {
       liquid: nitrogen
       ammount: 1.875
    }}
-research: malign
+research: phase-synthesizer
+research: origin
 requirements: [
    phase-fabric/150
    oxide/300
