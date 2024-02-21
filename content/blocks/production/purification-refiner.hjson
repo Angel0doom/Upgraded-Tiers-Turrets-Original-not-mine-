@@ -17,7 +17,7 @@ consumes: {
    ]
    liquid: {
       nitrogen/32
-   }
+   }}
 research: phase-synthesizer
 research: origin
 requirements: [
