@@ -20,7 +20,7 @@ shoot: {
   shotDelay: 20
   }
 consumes: {
-  liquid: [
+  liquids: [
     arkycite/3
   ]
 }
