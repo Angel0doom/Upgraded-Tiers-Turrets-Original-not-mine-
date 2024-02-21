@@ -1,6 +1,7 @@
 name: Purification Refiner 
 desctiption: Fuses Silicon and Nitrogen into Signet. Requires heat.
 type: HeatCrafter
+health: 1650
 heatRequirement: 45
 itemOutput: signet/3
 craftTime: 300
