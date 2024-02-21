@@ -8,6 +8,5 @@ description:
     oxide/56
 ]
   research: sheilded-wall
-  research: signet
 type: Wall
 category: defense
