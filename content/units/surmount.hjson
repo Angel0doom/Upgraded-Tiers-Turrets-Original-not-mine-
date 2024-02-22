@@ -13,7 +13,7 @@ lightRadius: 5
 singleTarget: true
 fogRadius: 40
 treadPullOffset: 1
-crushDamage: 75
+crushDamage: 55
 rotateSpeed: 0.64
 treadRects: [
 {
@@ -98,14 +98,14 @@ heatColor: ffee71
       type: BasicBulletType 
       pierce: true
       pierceCap: 2
-      damage: 140
+      damage: 90
       collidesAir: false
       speed: 4
       homingPower: 0.09 
       homingRange: 56
       lifetime: 45
 }
-bulletInterval: 1
+bulletInterval: 3
 }
 parts: [
   {
