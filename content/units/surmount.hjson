@@ -76,7 +76,6 @@ shootY: 40
 minWarmup: 0.94
 warmupMaintainTime: 50
 recoil: 6
-rotateSpeed: 1.4
 heatColor: ffee71
   bullet: {
   type: BasicBulletType 
