@@ -81,7 +81,7 @@ heatColor: ffee71
   bullet: {
   type: BasicBulletType 
   lifetime: 130
-  speed: 8
+  speed: 3
   damage: 570
   smokeEffect: shootSmokeSmite
   pierceCap: 12
@@ -97,7 +97,7 @@ heatColor: ffee71
       type: BasicBulletType 
       damage: 140
       collidesAir: false
-      speed: 8
+      speed: 4
       homingPower: 0.09 
       homingRange: 56
       lifetime: 45
