@@ -62,7 +62,7 @@ weapons: [
 {
 name: colonize-weapon
 layerOffset: 1
-reload: 80
+reload: 110
 rotate: true
 rotateSpeed: 0.64
 x: 0
@@ -80,16 +80,12 @@ rotateSpeed: 1.4
 heatColor: ffee71
 shoot: {
   bullet: {
-  type: BasicBulletType
-  sprite: large-orb
-  lifetime: 60
-  speed: 4
-  width: 17
-  height: 21
-  hitSize: 8
+  type: BasicBulletType 
+  lifetime: 130
+  speed: 8
   damage: 570
   smokeEffect: shootSmokeSmite
-  pierceCap: 4
+  pierceCap: 12
   pierce: true
   pierceBuilding: true
   hitColor: ffec5c
@@ -107,7 +103,7 @@ shoot: {
       homingRange: 56
       lifetime: 45
 }
-bulletInterval: 6
+bulletInterval: 1
 }
 parts: [
   {
