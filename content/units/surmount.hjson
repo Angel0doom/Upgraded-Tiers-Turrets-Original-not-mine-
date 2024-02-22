@@ -78,7 +78,6 @@ warmupMaintainTime: 50
 recoil: 6
 rotateSpeed: 1.4
 heatColor: ffee71
-shoot: {
   bullet: {
   type: BasicBulletType 
   lifetime: 130
