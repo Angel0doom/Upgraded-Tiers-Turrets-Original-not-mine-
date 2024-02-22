@@ -60,7 +60,7 @@ outline: false
 weapons: [
 
 {
-name: colonize-weapon
+name: surmount-main-weapon
 layerOffset: 1
 reload: 110
 rotate: true
@@ -80,7 +80,7 @@ rotateSpeed: 1.4
 heatColor: ffee71
   bullet: {
   type: BasicBulletType 
-  intervalRandomSpread: 130
+  intervalRandomSpread: 80
   lifetime: 130
   speed: 3
   damage: 570
