@@ -1,11 +1,18 @@
 name: Reduction
 description: Discharges huge energy streams. requires extensive Arkycite.
 size: 5
-inaccuracy: 50
-reload: 68
+inaccuracy: 0
+reload: 300
 range: 224
+ammoPerShot: 20
 category: turret
 type: itemTurret
+consumes: {
+   liquid: {
+      liquid: cyanogen
+      ammount: 0.5
+}
+}
 requirements: [
   beryllium/1500
   phase-fabric/500
@@ -13,16 +20,25 @@ requirements: [
   carbide/600
   oxide/450
 ]
-shoot: {
-  shots: 70
-}
 ammoTypes: {
   oxide: {
-  bulletType: explosionBulletType
-  damage: 56.25
+  BulletType: ArtilleryBulletType
+  damage: 150
   knockback: 7
-  splashDamage: 35
-  splashDamageRadius: 0.75
-  speed: 20
-  lifetime: 30
+  splashDamage: 2400
+  splashDamageRadius: 6
+  status: melting
+  statusDuration: 280
+  speed: 7
+  lifetime: 40
+  fragSpread: 90
+  fragBullets: 4
+  fragAngle: 45
+  ammoMultiplier: 1
+  fragBullet: {
+      type: laserBoltBulletType
+      pierce: true
+      speed: 12
+      lifetime: 30
+      damage: 150
 }}
