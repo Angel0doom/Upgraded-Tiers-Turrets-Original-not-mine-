@@ -82,7 +82,7 @@ heatColor: ffee71
   intervalRandomSpread: 40
   lifetime: 130
   speed: 3
-  damage: 570
+  damage: 340
   smokeEffect: shootSmokeSmite
   pierceCap: 12
   pierce: true
@@ -97,14 +97,14 @@ heatColor: ffee71
       type: BasicBulletType 
       pierce: true
       pierceCap: 2
-      damage: 90
+      damage: 130
       collidesAir: false
       speed: 4
       homingPower: 0.09 
       homingRange: 56
       lifetime: 40
 }
-bulletInterval: 3
+bulletInterval: 1.5
 }
 parts: [
   {
