@@ -10,7 +10,7 @@ type: itemTurret
 consumes: {
    liquid: {
       liquid: cyanogen
-      ammount: 0.5
+      amount: 0.5
 }
 }
 requirements: [
@@ -30,7 +30,7 @@ ammoTypes: {
   status: melting
   statusDuration: 280
   speed: 2
-  lifetime: 40
+  lifetime: 300
   fragSpread: 90
   fragBullets: 4
   fragVelocityMin: 1
