@@ -22,24 +22,25 @@ requirements: [
 ]
 ammoTypes: {
   oxide: {
-  BulletType: ArtilleryBulletType
+  BulletType: artilleryBulletType
   damage: 150
   knockback: 7
   splashDamage: 2400
   splashDamageRadius: 6
   status: melting
   statusDuration: 280
-  speed: 7
+  speed: 2
   lifetime: 40
   fragSpread: 90
   fragBullets: 4
   fragVelocityMin: 1
   fragAngle: 45
+  fragRandomSpread: 0
   ammoMultiplier: 1
   fragBullet: {
       type: laserBoltBulletType
       pierce: true
-      speed: 12
+      speed: 5
       lifetime: 30
       damage: 150
       homingRange: 96
