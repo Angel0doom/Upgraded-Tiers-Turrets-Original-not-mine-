@@ -62,7 +62,7 @@ weapons: [
 {
 name: surmount-main-weapon
 layerOffset: 1
-reload: 110
+reload: 140
 rotate: true
 rotateSpeed: 0.64
 x: 0
@@ -80,7 +80,7 @@ rotateSpeed: 1.4
 heatColor: ffee71
   bullet: {
   type: BasicBulletType 
-  intervalRandomSpread: 80
+  intervalRandomSpread: 40
   lifetime: 130
   speed: 3
   damage: 570
@@ -103,7 +103,7 @@ heatColor: ffee71
       speed: 4
       homingPower: 0.09 
       homingRange: 56
-      lifetime: 45
+      lifetime: 20
 }
 bulletInterval: 3
 }
