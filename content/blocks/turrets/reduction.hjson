@@ -45,4 +45,4 @@ ammoTypes: {
       homingRange: 96
       homingPower: 0.5
       homingDelay: 0.3
-}}
+}}}
