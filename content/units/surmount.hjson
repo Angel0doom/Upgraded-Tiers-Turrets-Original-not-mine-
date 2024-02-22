@@ -102,7 +102,7 @@ heatColor: ffee71
       speed: 4
       homingPower: 0.09 
       homingRange: 56
-      lifetime: 20
+      lifetime: 40
 }
 bulletInterval: 3
 }
