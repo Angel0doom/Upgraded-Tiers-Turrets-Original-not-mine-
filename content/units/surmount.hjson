@@ -80,6 +80,7 @@ rotateSpeed: 1.4
 heatColor: ffee71
   bullet: {
   type: BasicBulletType 
+  intervalRandomSpread: 130
   lifetime: 130
   speed: 3
   damage: 570
@@ -95,6 +96,8 @@ heatColor: ffee71
   hitEffect: hitBulletColor
     intervalBullet: {
       type: BasicBulletType 
+      pierce: true
+      pierceCap: 2
       damage: 140
       collidesAir: false
       speed: 4
