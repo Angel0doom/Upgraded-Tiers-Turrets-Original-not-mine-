@@ -1,5 +1,5 @@
 name: Reduction
-description: Discharges huge energy streams. requires extensive Arkycite.
+description: Discharges huge energy fields.
 size: 5
 inaccuracy: 0
 reload: 300
@@ -33,6 +33,7 @@ ammoTypes: {
   lifetime: 40
   fragSpread: 90
   fragBullets: 4
+  fragVelocityMin: 1
   fragAngle: 45
   ammoMultiplier: 1
   fragBullet: {
@@ -41,4 +42,7 @@ ammoTypes: {
       speed: 12
       lifetime: 30
       damage: 150
+      homingRange: 96
+      homingPower: 0.5
+      homingDelay: 0.3
 }}
