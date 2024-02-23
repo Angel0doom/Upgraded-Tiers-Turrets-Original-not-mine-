@@ -71,7 +71,7 @@ fragOnHit: false
       colorFrom: f2e878
       colorTo: f2e878 
     }
-    frags: 1
+    fragBullets: 1
     fragRandomSpread: 60
     fragBullet: {
       type: LightningBulletType
