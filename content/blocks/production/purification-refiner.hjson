@@ -5,7 +5,7 @@ health: 1650
 heatRequirement: 45
 outputItem: signet/3
 craftTime: 180
-size: 4
+size: 3
 liquidCapacity: 96
 hasLiquids: true
 category: crafting
