@@ -1,6 +1,6 @@
 name: Vent Bore
 description: Drills into vents, drawing out Cerilonyte.
-type: attributeCrater
+type: attributeCrafter
 size: 3
 baseEfficiency: 0
 attribute: steam
