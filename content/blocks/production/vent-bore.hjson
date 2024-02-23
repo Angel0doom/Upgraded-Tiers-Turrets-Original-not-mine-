@@ -1,40 +1,39 @@
-{
-	name: Vent Bore
-	description: Drills into vents, drawing out Cerilonyte.
-	type: AttributeCrafter
-  attribute: steam
-  minEfficiency: 1
-  squareSprite": false
-  baseEfficiency: 0
-  displayEfficiency: false
-  craftEffect: steam
-  hasLiquids: true
-  liquidCapacity: 60
+name: Vent Bore
+description: Drills into vents, drawing out Cerilonyte.
+type: AttributeCrafter
+attribute: steam
+minEfficiency: 1
+squareSprite": false
+baseEfficiency: 0
+displayEfficiency: false
+craftEffect: steam
+hasLiquids: true
+liquidCapacity: 60
 	size: 3
-  drawer: [
-    {
+drawer: [
+{
       type: DrawLiquidTile
       drawLiquid: cerilonyte 
       padding: 1.6
-    }
-    {
+}
+{
       type: DrawRegion
-    }
-  ]
-  hasPower: true
-  outputLiquid: {
+}
+]
+hasPower: true
+outputLiquid: {
     liquid: cerilonyte 
     amount: 0.2
   }
-  consumes: {
+consumes: {
     power: 12
   }
-	requirements: [
+requirements: [
   tungsten/170
   carbide/60
   phase-fabric/230 
 	]
-	category: production
-	research: vent-condenser
-  research: signet
+category: production
+research: vent-condenser
+research: signet
 }
