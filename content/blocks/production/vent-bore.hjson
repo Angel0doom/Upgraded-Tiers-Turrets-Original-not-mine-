@@ -7,6 +7,7 @@ attribute: steam
 maxBoost: 1
 craftEffect: steam
 hasLiquids: true
+squareSprite: false
 liquidCapacity: 60
 minBoost: 1
 hasPower: true
