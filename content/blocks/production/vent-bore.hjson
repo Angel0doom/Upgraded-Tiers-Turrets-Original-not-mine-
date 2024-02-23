@@ -30,7 +30,7 @@ research: signet
 drawer: [
 { type: drawLiquidTile
   drawLiquid: cerilonyte
-  padding: 1.3
+  padding: 1.6
 }]
 outputLiquid: {
   liquid: cerilonyte 
