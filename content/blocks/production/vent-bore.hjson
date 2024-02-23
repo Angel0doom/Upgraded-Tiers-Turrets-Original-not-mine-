@@ -1,2 +1,16 @@
 name: Vent Bore
 description: Drills into vents, condensing Sulfur and Thorium into 
+type: attributeCrater
+size: 3
+baseEfficiency: 0
+attribute: heat
+maxBoost: 1
+minBoost: 1
+displayEfficiency: false
+outputLiquid: cerilonyte
+consumes: {
+  power: 12
+  liquid: {
+    liquid: arkycite
+    amount: 5
+}}
