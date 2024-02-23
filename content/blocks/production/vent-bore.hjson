@@ -3,7 +3,7 @@ description: Drills into vents, condensing Sulfur and Thorium into
 type: attributeCrater
 size: 3
 baseEfficiency: 0
-attribute: heat
+attribute: steam
 maxBoost: 1
 minBoost: 1
 displayEfficiency: false
@@ -14,3 +14,11 @@ consumes: {
     liquid: arkycite
     amount: 5
 }}
+category: production
+requirements: [
+tungsten/170
+carbide/60
+phase-fabric/230
+]
+research: vent-condenser
+research: signet
