@@ -38,8 +38,10 @@ fragOnHit: false
       length: 12
       colorFrom: b6b6b6
       colorTo: 6d6d6d 
+      lifetime: 12
     }
   smokeEffect: {
+      lifetime: 12
       type: ParticleEffect
       line: true
       cone: 10
@@ -57,6 +59,7 @@ fragOnHit: false
     speed: 4
     shootEffect: {
       type: ParticleEffect
+      lifetime: 12
       line: true
       cone: 10
       length: 24
@@ -68,6 +71,7 @@ fragOnHit: false
       line: true
       cone: 10
       length: 24
+      lifetime: 12
       colorFrom: f2e878
       colorTo: f2e878 
     }
