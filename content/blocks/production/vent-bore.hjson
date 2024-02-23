@@ -1,19 +1,23 @@
 name: Vent Bore
-description: Drills into vents, condensing Sulfur and Thorium into 
+description: Drills into vents, drawing out Cerilonyte.
 type: attributeCrater
 size: 3
 baseEfficiency: 0
 attribute: steam
 maxBoost: 1
+craftEffect: steam
+hasLiquids: true
+liquidCapacity: 60
 minBoost: 1
+hasPower: true
 displayEfficiency: false
-outputLiquid: cerilonyte
 consumes: {
   power: 12
   liquid: {
-    liquid: arkycite
-    amount: 5
+    liquid: ozone
+    amount: 1
 }}
+
 category: production
 requirements: [
 tungsten/170
@@ -22,3 +26,12 @@ phase-fabric/230
 ]
 research: vent-condenser
 research: signet
+drawer: [
+  drawLiquidTile: {
+     drawLiquid: cerilonyte
+     padding: 1.3
+}]
+outputLiquid: {
+  liquid: cerilonyte 
+  amount: 0.2
+}
