@@ -71,11 +71,16 @@ fragOnHit: false
       colorFrom: f2e878
       colorTo: f2e878 
     }
-      lightning: 1
-      lightningDamage: 23
-      lightningLength: 13
-      lightningCone: 20
-      lightningLengthRand: 13
+    spawnBullets: [
+      {
+        createChance: 0.5
+        type: LightningBulletType
+        lightningLength: 15
+        lightningLengthRand: 8
+        damage: 23
+        lightningColor: f2e878
+      }
+      ]
 }
 }
 requirements: [
