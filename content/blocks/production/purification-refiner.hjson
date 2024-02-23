@@ -4,7 +4,7 @@ type: HeatCrafter
 health: 1650
 heatRequirement: 45
 outputItem: signet/3
-craftTime: 540
+craftTime: 570
 size: 3
 liquidCapacity: 96
 hasLiquids: true
