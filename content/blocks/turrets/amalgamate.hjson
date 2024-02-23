@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Amalgamate 
-description: A disastrous turret used for wide are. Requires lubricant to fire. Perilous.
+description: A massive turret that shoots large shrapnel blasts in a shotgun-like manner. Requires coolant.
 reload: 45
 shootSound: shotgun
 recoil: 6
@@ -9,8 +9,8 @@ category: turret
 range: 150
 consumes: {
   liquids: {
-    liquid: oil
-    ammount: 0.3
+    liquid: cryofluid
+    amount: 0.3
 }
   power: 12
   coolant: {
@@ -26,12 +26,20 @@ ammoTypes: {
   blast-compound: {
 fragOnHit: false
     type: ShrapnelBulletType
-    fromColor: 6d6d6d 
-    toColor: ffffff
+    toColor: 6d6d6d 
+    fromColor: ffffff
     length: 150
     damage: 160
     speed: 4
     shootEffect: {
+      type: ParticleEffect
+      line: true
+      cone: 10
+      length: 12
+      colorFrom: b6b6b6
+      colorTo: 6d6d6d 
+    }
+  smokeEffect: {
       type: ParticleEffect
       line: true
       cone: 10
@@ -55,11 +63,19 @@ fragOnHit: false
       colorFrom: f2e878
       colorTo: f2e878 
     }
+    smokeEffect: {
+      type: ParticleEffect
+      line: true
+      cone: 10
+      length: 24
+      colorFrom: f2e878
+      colorTo: f2e878 
+    }
     frags: 5
     fragRandomSpread: 60
     fragBullet: {
       type: LightningBulletType
-      lightningLength: 9
+      lightningLength: 15
       damage: 45
       lightningColor: f2e878
     }
