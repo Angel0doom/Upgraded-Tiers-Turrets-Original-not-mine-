@@ -18,6 +18,7 @@ drawer: [
 }
 {
       type: DrawRegion
+      suffix:
 }
 ]
 hasPower: true
