@@ -3,7 +3,7 @@ description: Drills into vents, drawing out Cerilonyte.
 type: AttributeCrafter
 attribute: steam
 minEfficiency: 1
-squareSprite": false
+squareSprite: false
 baseEfficiency: 0
 displayEfficiency: false
 craftEffect: steam
