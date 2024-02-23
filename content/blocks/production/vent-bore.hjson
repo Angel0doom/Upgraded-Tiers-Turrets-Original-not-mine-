@@ -27,9 +27,9 @@ phase-fabric/230
 research: vent-condenser
 research: signet
 drawer: [
-  drawLiquidTile: {
-     drawLiquid: cerilonyte
-     padding: 1.3
+  type: drawLiquidTile
+  drawLiquid: cerilonyte
+  padding: 1.3
 }]
 outputLiquid: {
   liquid: cerilonyte 
