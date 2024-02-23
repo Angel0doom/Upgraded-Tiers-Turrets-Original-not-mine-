@@ -71,14 +71,11 @@ fragOnHit: false
       colorFrom: f2e878
       colorTo: f2e878 
     }
-    fragBullets: 1
-    fragRandomSpread: 60
-    fragBullet: {
-      type: LightningBulletType
-      lightningLength: 15
-      damage: 23
-      lightningColor: f2e878
-    }
+      lightning: 1
+      lightningDamage: 23
+      lightningLength: 13
+      lightningCone: 20
+      lightningLengthRand: 13
 }
 }
 requirements: [
