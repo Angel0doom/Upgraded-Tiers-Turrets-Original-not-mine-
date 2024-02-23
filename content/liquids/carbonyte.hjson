@@ -1,0 +1,11 @@
+name: Carbonyte
+type: liquid
+gas: true
+description: Used frequently in advanced chemical reactions. Highly radioactive.
+flamibility: 0.6
+radioactivity: 1.3
+explosiveness: 0.1
+temperature: 0.1
+gasColor: d6ef58
+color: dceb90
+barColor: bccf34
