@@ -72,7 +72,7 @@ name: lycidae-main
 ]
 abilities: [
 {
-type: sheildArcAblity
+type: shieldArcAblity
 max:5200
 cooldown: 240
 radius: 80
@@ -80,7 +80,6 @@ regen: 40
 x: 40
 whenShooting: true
 width: 12
-
 }
 ]
 
