@@ -43,7 +43,7 @@ weapons: [
   shootY: 40
   bullet: {
       spawnUnit: meuri
-}]
+}
 {
 name: intercept-barrage2
 reload: 20
@@ -67,7 +67,7 @@ range: 200
      homingDelay: 15
      speed: 7
      lifetime: 60
-}
+}]
 abilities: [{
 type: SuppressionFieldAbility
 reload: 1
