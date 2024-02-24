@@ -56,7 +56,7 @@ name: lycidae-main
       lifetime: 2
       damage: 37.5
       splashDamage: 160
-      splashDamageRadius: 16
+      splashDamageRadius: 36
 }
 name: point-defence
   type: pointDefenceWeapon
