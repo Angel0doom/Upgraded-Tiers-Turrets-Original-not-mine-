@@ -63,3 +63,11 @@ splashDamage: 50
 splashDamageRadius: 8
   }
 }
+]
+abilities: [
+{
+type: SuppressionFieldAbility
+reload: 1
+range: 240
+}
+]
