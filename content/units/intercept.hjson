@@ -49,7 +49,7 @@ shoot: {
 }
 range: 544
   bullet: {
-     spawnUnit: upgradedturrettiers-intercept-missile1
+     spawnUnit: intercept-missile1
 }
 }
 {
@@ -68,7 +68,7 @@ shoot: {
 }
 range: 544
   bullet: {
-    spawnUnit: upgradedturrettiers-intercept-missile2
+    spawnUnit: intercept-missile2
 }
 }
 {
@@ -87,7 +87,7 @@ shoot: {
 }
 range: 544
   bullet: {
-     spawnUnit: upgradedturrettiers-intercept-missile3
+     spawnUnit: intercept-missile3
 }
 }
 ]
