@@ -45,11 +45,11 @@ name: lycidae-main
     speed: 10
     lifetime: 30
     intervalBullets: 2
-    damage: 300
+    damage: 56
     pierce: true
     pierceCap: 7
     bulletInterval: 6
-    splashDamage: 720
+    splashDamage: 1060
     splashDamageRadius: 52
     intervalBullet: {
       speed: 8
