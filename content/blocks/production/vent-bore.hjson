@@ -16,10 +16,6 @@ drawer: [
       drawLiquid: cerilonyte 
       padding: 1.6
 }
-{
-      type: DrawRegion
-      suffix:
-}
 ]
 hasPower: true
 outputLiquid: {
