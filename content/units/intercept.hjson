@@ -34,7 +34,7 @@ engineSize: 10
 engineOffset: 40
 weapons: [
 {
-name: intercept-barrage2
+name: intercept-barrage1
 reload: 5
 baseRotation: 50
 alternate: true
@@ -68,17 +68,11 @@ shoot: {
 }
 range: 544
   bullet: {
-     BulletType: BasicBulletType 
-     damage: 75
-     homingPower: 0.09
-     homingRange: 550
-     homingDelay: 16
-     speed: 6
-     lifetime: 80
+    spawnUnit: upgradedturrettiers-intercept-missile2
 }
 }
 {
-name: intercept-barrage2
+name: intercept-barrage3
 reload: 15
 baseRotation: 50
 alternate: true
@@ -93,13 +87,7 @@ shoot: {
 }
 range: 544
   bullet: {
-     BulletType: BasicBulletType 
-     damage: 100
-     homingPower: 0.08
-     homingRange: 550
-     homingDelay: 17
-     speed: 8
-     lifetime: 80
+     spawnUnit: upgradedturrettiers-intercept-missile3
 }
 }
 ]
