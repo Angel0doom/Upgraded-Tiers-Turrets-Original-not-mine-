@@ -123,7 +123,7 @@ name: laser-set1
     pierceDamageFactor: 0.8
     length: 15
 }
-}
+}]
 parts: [
   {
   type: RegionPart
@@ -265,4 +265,4 @@ parts: [
   rotateSpeed: 1.8
   y: -32
   }
-]]
+]
