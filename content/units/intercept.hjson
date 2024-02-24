@@ -49,7 +49,7 @@ shoot: {
 }
 range: 544
   bullet: {
-     summonUnit: intercept-missile1
+     summonUnit: upgraded-turret-tiers-intercept-missile1
 }
 }
 {
