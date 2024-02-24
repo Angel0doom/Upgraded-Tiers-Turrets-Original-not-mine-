@@ -36,7 +36,7 @@ name: lycidae-main
   reload: 120
   mirror: true
   alternate: true
-  inaccuracy: 6
+  inaccuracy: 0
   shootCone: 10
   x: 12
   y: -16
