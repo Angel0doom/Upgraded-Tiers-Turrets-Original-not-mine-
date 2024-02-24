@@ -110,7 +110,9 @@ range: 200
      splashDamageRadius: 12
 }}]
 abilities: [
+{
 type: SuppressionFieldAbility
 reload: 1
 range: 240
+}
 ]
