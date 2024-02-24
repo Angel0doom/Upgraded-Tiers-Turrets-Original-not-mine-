@@ -59,7 +59,7 @@ instantDissapear: true
 width: 0
 height: 0
 keepVelocity: false
-splashDamage: 50
+splashDamage: 100
 splashDamageRadius: 8
   }
 }
