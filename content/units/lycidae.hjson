@@ -44,15 +44,15 @@ name: lycidae-main
     type: artilleryBulletType 
     speed: 10
     lifetime: 30
-    intervalBullets: 1
+    intervalBullets: 2
     damage: 300
     pierce: true
-    pierceCap: 4
+    pierceCap: 7
     bulletInterval: 6
     splashDamage: 720
     splashDamageRadius: 35.25
     intervalBullet: {
-      speed: 1
+      speed: 8
       lifetime: 2
       damage: 37.5
       splashDamage: 160
