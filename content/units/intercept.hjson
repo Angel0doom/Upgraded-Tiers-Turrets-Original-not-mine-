@@ -77,8 +77,8 @@ range: 200
      speed: 7
      lifetime: 60
 }}
-abilities: [{
+abilities: [
 type: SuppressionFieldAbility
 reload: 1
 range: 240
-}]
+]
