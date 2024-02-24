@@ -33,6 +33,7 @@ engineSize: 8
 engineOffset: 40
 weapons: [
   name: intercept-barage
+  baseRotation: 10
   shootSound: missileLarge
   reload: 10
   alternate: true
@@ -43,6 +44,12 @@ weapons: [
   shootY: 40
   bullet: {
      BulletType: BasicBulletType 
+     damage: 40
+     homingPower: 0.4
+     homingRange: 280
+     homingDelay: 15
+     speed: 7
+     lifetime: 60
 }
 {
 name: intercept-barrage2
