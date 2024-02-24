@@ -124,7 +124,7 @@ name: laser-set1
     pierceDamageFactor: 0.8
     length: 140
     lineEffect: railTrail
-    pointEffect: railShoot
+    pointEffect: railTrail
     endEffect: railHit
 }
 }]
