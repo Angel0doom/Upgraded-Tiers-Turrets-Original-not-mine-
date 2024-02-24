@@ -33,7 +33,7 @@ legSplashRange: 12
 weapons: [
 {
 name: lycidae-main
-  reload: 60
+  reload: 120
   mirror: true
   alternate: true
   inaccuracy: 6
@@ -41,17 +41,19 @@ name: lycidae-main
   x: 12
   y: -16
   bullet: {
+    type: artilleryBulletType 
     speed: 10
     lifetime: 30
     fragBullets: 1
     damage: 300
     pierce: true
     pierceCap: 2
+    minFrag
     fragRandomSpread: 6
     splashDamage: 720
     splashDamageRadius: 28
     fragBullet: {
-      speed: 13
+      speed: 8
       lifetime: 30
       fragBullets: 1
       damage: 200
@@ -61,7 +63,7 @@ name: lycidae-main
       splashDamage: 460
       splashDamageRadius: 24
       fragBullet: {
-        speed: 16
+        speed: 6
         lifetime: 30
         damage: 100
         pierce: true
@@ -75,11 +77,10 @@ abilities: [
 type: shieldArcAbility
 max:5200
 cooldown: 240
-radius: 80
+radius: 88
 regen: 40
-x: 40
 whenShooting: true
-width: 12
+width: 6
 }
 ]
 
