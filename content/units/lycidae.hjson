@@ -50,13 +50,13 @@ name: lycidae-main
     pierceCap: 7
     bulletInterval: 6
     splashDamage: 720
-    splashDamageRadius: 35.25
+    splashDamageRadius: 100
     intervalBullet: {
       speed: 8
       lifetime: 2
       damage: 37.5
       splashDamage: 160
-      splashDamageRadius: 36
+      splashDamageRadius: 32
 }
 name: point-defence
   type: pointDefenceWeapon
