@@ -1,12 +1,12 @@
 name:Intercept
 type: flying
 flying: true
-description: Fires continuous homing suppression missiles at enemy ground targets. Fires a barrage of piercing bullets at air enemy targets. Suppresses enemy structure repair blocks.
+description: Fires continuous long-range homing suppression missiles at enemy ground targets. Fires a barrage of piercing bullets at air enemy targets. Suppresses enemy structure repair blocks.
 health: 24000
 itemCapacity: 260
 payloadCapacity: 6
 template: ErekirUnitType
-hitSize: 75
+hitSize: 66
 rotateSpeed: 1.4
 armor: 26
 speed: 0.75
@@ -41,23 +41,21 @@ alternate: true
 mirror: true
 shootCone: 360
 y: 20
-x: 15
+x: -15
 shoot: {
   type: shootAlternate
   barrels: 2
   spread: 3
 }
-range: 200
+range: 544
   bullet: {
      BulletType: BasicBulletType 
-     damage: 20
-     homingPower: 0.08
-     homingRange: 280
+     damage: 50
+     homingPower: 0.1
+     homingRange: 550
      homingDelay: 15
-     speed: 7
+     speed: 8
      lifetime: 80
-     splashDamage: 30
-     splashDamageRadius: 8
 }
 }{
 name: intercept-barrage2
@@ -67,23 +65,21 @@ alternate: true
 mirror: true
 shootCone: 360
 y: 15
-x: 17
+x: -17
 shoot: {
   type: shootAlternate
   barrels: 2
   spread: 3
 }
-range: 200
+range: 544
   bullet: {
      BulletType: BasicBulletType 
-     damage: 20
-     homingPower: 0.08
-     homingRange: 280
-     homingDelay: 15
+     damage: 75
+     homingPower: 0.09
+     homingRange: 550
+     homingDelay: 16
      speed: 6
      lifetime: 80
-     splashDamage: 30
-     splashDamageRadius: 12
 }}
 {
 name: intercept-barrage2
@@ -93,23 +89,21 @@ alternate: true
 mirror: true
 shootCone: 360
 y: 10
-x: 10
+x: -10
 shoot: {
   type: shootAlternate
   barrels: 2
   spread: 3
 }
-range: 200
+range: 544
   bullet: {
      BulletType: BasicBulletType 
-     damage: 20
+     damage: 100
      homingPower: 0.08
-     homingRange: 280
-     homingDelay: 15
+     homingRange: 550
+     homingDelay: 17
      speed: 8
      lifetime: 80
-     splashDamage: 30
-     splashDamageRadius: 16
 }}]
 abilities: [
 {
