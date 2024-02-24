@@ -109,7 +109,19 @@ bulletInterval: 1.5
 }
 {
 name: laser-set1
-  
+  reload: 3
+  mirror: true
+  alternate: true
+  x: 12
+  rotate: true
+  rotateSpeed: 0.2
+  rotationLimit: 35
+  bullet: {
+    type: railBulletType
+    damage: 42
+    pierceDamageFactor: 0.8
+    length: 15
+}
 }
 parts: [
   {
