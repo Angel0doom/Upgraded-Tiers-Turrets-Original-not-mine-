@@ -12,7 +12,7 @@ legStraightness: 0.6
 baseLegStraightness: 0.5
 legSpeed: 0.6
 legCount: 8
-legLength: 56
+legLength: 42
 lockLegBase: true
 legContinuousMove: true
 legExtension: -6
