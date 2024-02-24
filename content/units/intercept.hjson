@@ -5,7 +5,7 @@ description:
 health: 24000
 template: ErekirUnitType
 hitSize: 10
-rotateSpeed: 
+rotateSpeed: 1.1
 armor: 20
 speed: 0.8
 targetAir: true
