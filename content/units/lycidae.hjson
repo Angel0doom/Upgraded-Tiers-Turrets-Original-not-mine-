@@ -1,0 +1,86 @@
+template: ErekirUnitType
+type: legs
+name: Lycidae
+health: 32000
+armor: 42
+description: ye
+speed: 1
+hovering: true
+hitSize: 58
+rotateSpeed: 2.5
+legStraightness: 0.6
+baseLegStraightness: 0.5
+legSpeed: 0.6
+legCount: 8
+legLength: 56
+lockLegBase: true
+legContinuousMove: true
+legExtension: -6
+legBaseOffset: 16
+legMaxLength: 1.05
+legLengthScl: 0.96
+legMinLength: 0.8
+legForwardScale: 2.1
+fogRadius: 60
+legGroupSize: 2
+rippleScale: 1.2
+legMoveSpace: 1.05
+allowLegStep: true
+stepShake: 0.6
+legPhysicsLayer: false
+legSplashDamage: 165
+legSplashRange: 12
+weapons: [
+{
+name: lycidae-main
+  reload: 60
+  mirror: true
+  alternate: true
+  inaccuracy: 6
+  shootCone: 10
+  x: 12
+  y: -16
+  bullet: {
+    speed: 10
+    lifetime: 30
+    fragBullets: 1
+    damage: 300
+    pierce: true
+    pierceCap: 2
+    fragRandomSpread: 6
+    splashDamage: 720
+    splashDamageRadius: 28
+    fragBullet: {
+      speed: 13
+      lifetime: 30
+      fragBullets: 1
+      damage: 200
+      pierce: true
+      pierceCap: 2
+      fragRandomSpread: 6
+      splashDamage: 460
+      splashDamageRadius: 24
+      fragBullet: {
+        speed: 16
+        lifetime: 30
+        damage: 100
+        pierce: true
+        pierceCap: 2
+        splashDamage: 230
+        splashDamageRadius: 20
+}}}}
+]
+abilities: [
+{
+type: sheildArcAblity
+max:5200
+cooldown: 240
+radius: 80
+regen: 40
+x: 40
+whenShooting: true
+width: 12
+
+}
+]
+
