@@ -32,29 +32,8 @@ engineSize: 8
 engineOffset: 40
 weapons: [
 {
-  name: intercept-barage
-  baseRotation: 10
-  shootSound: missileLarge
-  reload: 10
-  alternate: true
-  range: 600
-  mirror: true 
-  x: 12
-  y: 0
-  shootY: 40
-  bullet: {
-     BulletType: BasicBulletType 
-     damage: 40
-     homingPower: 0.4
-     homingRange: 280
-     homingDelay: 15
-     speed: 7
-     lifetime: 60
-}
-}
-{
 name: intercept-barrage2
-reload: 20
+reload: 10
 baseRotation: 70
 alternate: true
 mirror: true
@@ -80,7 +59,7 @@ range: 200
 }
 }{
 name: intercept-barrage2
-reload: 25
+reload: 15
 baseRotation: 70
 alternate: true
 mirror: true
@@ -106,7 +85,7 @@ range: 200
 }}
 {
 name: intercept-barrage2
-reload: 15
+reload: 5
 baseRotation: 70
 alternate: true
 mirror: true
@@ -129,7 +108,7 @@ range: 200
      lifetime: 80
      splashDamage: 30
      splashDamageRadius: 12
-}}
+}}]
 abilities: [
 type: SuppressionFieldAbility
 reload: 1
