@@ -35,8 +35,8 @@ engineOffset: 40
 weapons: [
 {
 name: intercept-barrage1
-reload: 5
-baseRotation: 50
+reload: 7.5
+baseRotation: 45
 alternate: true
 mirror: true
 shootCone: 360
@@ -55,7 +55,7 @@ range: 544
 {
 name: intercept-barrage2
 reload: 10
-baseRotation: 50
+baseRotation: 45
 alternate: true
 mirror: true
 shootCone: 360
@@ -74,7 +74,7 @@ range: 544
 {
 name: intercept-barrage3
 reload: 15
-baseRotation: 50
+baseRotation: 45
 alternate: true
 mirror: true
 shootCone: 360
