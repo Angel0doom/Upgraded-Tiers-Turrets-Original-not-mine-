@@ -1,0 +1,74 @@
+name:Intercept
+type: flying
+flying: true
+description: 
+health: 24000
+template: ErekirUnitType
+hitSize: 10
+rotateSpeed: 
+armor: 20
+speed: 0.8
+targetAir: true
+faceTargets: true
+lightRadius: 5
+singleTarget: true
+fogRadius: 40
+engines: [
+{
+x: -16
+y: -36
+radius: 8
+rotation: -45
+mirror: true
+}
+{
+x: 16
+y: -36
+radius: 8
+rotation: 45
+mirror: true
+}
+engineSize: 8
+engineOffset: 40
+weapons: [
+  name: intercept-barage
+  shootSound: missileLarge
+  reload: 10
+  alternate: true
+  range: 600
+  mirror: true 
+  x: 12
+  y: 0
+  shootY: 40
+  bullet: {
+      spawnUnit: meuri
+}]
+{
+name: intercept-barrage2
+reload: 20
+baseRotation: 80
+alternate: true
+mirror: true
+shootCone: 360
+y: 20
+shoot: {
+  type: shootAlternate
+  barrels: 6
+  spread: 3
+  shots: 6
+}}
+range: 200
+  bullet: {
+     BulletType: BasicBulletType 
+     damage: 40
+     homingPower: 0.4
+     homingRange: 280
+     homingDelay: 15
+     speed: 7
+     lifetime: 60
+}
+abilities: [{
+type: SuppressionFieldAbility
+reload: 1
+range: 240
+}]
