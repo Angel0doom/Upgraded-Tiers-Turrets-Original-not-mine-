@@ -49,15 +49,10 @@ shoot: {
 }
 range: 544
   bullet: {
-     BulletType: BasicBulletType 
-     damage: 50
-     homingPower: 0.1
-     homingRange: 550
-     homingDelay: 15
-     speed: 8
-     lifetime: 80
+     summonUnit: intercept-missile1
 }
-}{
+}
+{
 name: intercept-barrage2
 reload: 10
 baseRotation: 50
@@ -80,7 +75,8 @@ range: 544
      homingDelay: 16
      speed: 6
      lifetime: 80
-}}
+}
+}
 {
 name: intercept-barrage2
 reload: 15
@@ -104,7 +100,9 @@ range: 544
      homingDelay: 17
      speed: 8
      lifetime: 80
-}}]
+}
+}
+]
 abilities: [
 {
 type: SuppressionFieldAbility
