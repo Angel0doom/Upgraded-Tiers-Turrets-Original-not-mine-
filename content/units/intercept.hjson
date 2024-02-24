@@ -1,13 +1,15 @@
 name:Intercept
 type: flying
 flying: true
-description: 
+description: Fires continuous homing suppression missiles at enemy ground targets. Fires a barrage of piercing bullets at air enemy targets. Suppresses enemy structure repair blocks.
 health: 24000
+itemCapacity: 260
+payloadCapacity: 6
 template: ErekirUnitType
-hitSize: 10
-rotateSpeed: 1.1
-armor: 20
-speed: 0.8
+hitSize: 75
+rotateSpeed: 1.4
+armor: 26
+speed: 0.75
 targetAir: true
 faceTargets: true
 lightRadius: 5
@@ -28,13 +30,13 @@ rotation: 45
 mirror: true
 }
 ]
-engineSize: 8
+engineSize: 10
 engineOffset: 40
 weapons: [
 {
 name: intercept-barrage2
-reload: 10
-baseRotation: 70
+reload: 5
+baseRotation: 50
 alternate: true
 mirror: true
 shootCone: 360
@@ -59,8 +61,8 @@ range: 200
 }
 }{
 name: intercept-barrage2
-reload: 15
-baseRotation: 70
+reload: 10
+baseRotation: 50
 alternate: true
 mirror: true
 shootCone: 360
@@ -81,12 +83,12 @@ range: 200
      speed: 6
      lifetime: 80
      splashDamage: 30
-     splashDamageRadius: 16
+     splashDamageRadius: 12
 }}
 {
 name: intercept-barrage2
-reload: 5
-baseRotation: 70
+reload: 15
+baseRotation: 50
 alternate: true
 mirror: true
 shootCone: 360
@@ -107,7 +109,7 @@ range: 200
      speed: 8
      lifetime: 80
      splashDamage: 30
-     splashDamageRadius: 12
+     splashDamageRadius: 16
 }}]
 abilities: [
 {
