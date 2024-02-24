@@ -78,7 +78,7 @@ range: 200
      splashDamage: 30
      splashDamageRadius: 8
 }
-{
+}{
 name: intercept-barrage2
 reload: 25
 baseRotation: 70
@@ -103,7 +103,7 @@ range: 200
      lifetime: 80
      splashDamage: 30
      splashDamageRadius: 16
-}
+}}
 {
 name: intercept-barrage2
 reload: 15
