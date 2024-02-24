@@ -116,12 +116,12 @@ name: laser-set1
   x: 12
   rotate: true
   rotateSpeed: 0.2
-  rotationLimit: 35
+  rotationLimit: 70
   bullet: {
     type: railBulletType
     damage: 42
     pierceDamageFactor: 0.8
-    length: 15
+    length: 150
 }
 }]
 parts: [
