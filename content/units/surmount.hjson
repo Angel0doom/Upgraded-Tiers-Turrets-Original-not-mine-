@@ -123,6 +123,7 @@ name: laser-set1
     length: 15
 }
 }
+}
 parts: [
   {
   type: RegionPart
@@ -264,6 +265,4 @@ parts: [
   rotateSpeed: 1.8
   y: -32
   }
-]
-}
-]
+]]
