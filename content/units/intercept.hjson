@@ -32,6 +32,7 @@ mirror: true
 engineSize: 8
 engineOffset: 40
 weapons: [
+{
   name: intercept-barage
   baseRotation: 10
   shootSound: missileLarge
@@ -51,6 +52,7 @@ weapons: [
      speed: 7
      lifetime: 60
 }
+}
 {
 name: intercept-barrage2
 reload: 20
@@ -64,7 +66,7 @@ shoot: {
   barrels: 6
   spread: 3
   shots: 6
-}}
+}
 range: 200
   bullet: {
      BulletType: BasicBulletType 
@@ -74,7 +76,7 @@ range: 200
      homingDelay: 15
      speed: 7
      lifetime: 60
-}]
+}}
 abilities: [{
 type: SuppressionFieldAbility
 reload: 1
