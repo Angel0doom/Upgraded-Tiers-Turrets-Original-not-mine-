@@ -80,9 +80,10 @@ heatColor: ffee71
   bullet: {
   type: BasicBulletType 
   intervalRandomSpread: 40
+  IntervalBullets: 3
   lifetime: 130
   speed: 3
-  damage: 340
+  damage: 420
   smokeEffect: shootSmokeSmite
   pierceCap: 12
   pierce: true
@@ -97,7 +98,7 @@ heatColor: ffee71
       type: BasicBulletType 
       pierce: true
       pierceCap: 2
-      damage: 130
+      damage: 170
       collidesAir: false
       speed: 4
       homingPower: 0.09 
@@ -105,6 +106,10 @@ heatColor: ffee71
       lifetime: 40
 }
 bulletInterval: 1.5
+}
+{
+name: laser-set1
+  
 }
 parts: [
   {
