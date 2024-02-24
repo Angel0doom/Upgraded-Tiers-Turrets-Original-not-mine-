@@ -10,7 +10,7 @@ speed: 0.3
 targetAir: true
 faceTargets: true
 lightRadius: 5
-singleTarget: true
+singleTarget: false
 fogRadius: 40
 treadPullOffset: 1
 crushDamage: 55
@@ -113,6 +113,7 @@ name: laser-set1
   reload: 3
   mirror: true
   alternate: true
+  shootSound: bolt
   x: 12
   rotate: true
   rotateSpeed: 0.2
@@ -121,7 +122,10 @@ name: laser-set1
     type: railBulletType
     damage: 42
     pierceDamageFactor: 0.8
-    length: 150
+    length: 140
+    lineEffect: railTrail
+    pointEffect: railShoot
+    endEffect: railHit
 }
 }]
 parts: [
