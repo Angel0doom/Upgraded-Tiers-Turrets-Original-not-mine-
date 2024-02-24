@@ -11,7 +11,6 @@ speed: 0.8
 targetAir: true
 faceTargets: true
 lightRadius: 5
-singleTarget: true
 fogRadius: 40
 engines: [
 {
@@ -56,26 +55,80 @@ weapons: [
 {
 name: intercept-barrage2
 reload: 20
-baseRotation: 80
+baseRotation: 70
 alternate: true
 mirror: true
 shootCone: 360
 y: 20
+x: 15
 shoot: {
   type: shootAlternate
-  barrels: 6
+  barrels: 2
   spread: 3
-  shots: 6
 }
 range: 200
   bullet: {
      BulletType: BasicBulletType 
-     damage: 40
-     homingPower: 0.4
+     damage: 20
+     homingPower: 0.08
      homingRange: 280
      homingDelay: 15
      speed: 7
-     lifetime: 60
+     lifetime: 80
+     splashDamage: 30
+     splashDamageRadius: 8
+}
+{
+name: intercept-barrage2
+reload: 25
+baseRotation: 70
+alternate: true
+mirror: true
+shootCone: 360
+y: 15
+x: 17
+shoot: {
+  type: shootAlternate
+  barrels: 2
+  spread: 3
+}
+range: 200
+  bullet: {
+     BulletType: BasicBulletType 
+     damage: 20
+     homingPower: 0.08
+     homingRange: 280
+     homingDelay: 15
+     speed: 6
+     lifetime: 80
+     splashDamage: 30
+     splashDamageRadius: 16
+}
+{
+name: intercept-barrage2
+reload: 15
+baseRotation: 70
+alternate: true
+mirror: true
+shootCone: 360
+y: 10
+x: 10
+shoot: {
+  type: shootAlternate
+  barrels: 2
+  spread: 3
+}
+range: 200
+  bullet: {
+     BulletType: BasicBulletType 
+     damage: 20
+     homingPower: 0.08
+     homingRange: 280
+     homingDelay: 15
+     speed: 8
+     lifetime: 80
+     splashDamage: 30
+     splashDamageRadius: 12
 }}
 abilities: [
 type: SuppressionFieldAbility
