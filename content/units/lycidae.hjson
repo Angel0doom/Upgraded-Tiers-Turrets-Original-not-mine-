@@ -44,37 +44,31 @@ name: lycidae-main
     type: artilleryBulletType 
     speed: 10
     lifetime: 30
-    fragBullets: 1
-    fragVelocityMin: 1
+    intervalBullets: 1
     damage: 300
     pierce: true
     pierceCap: 2
-    minFrag
-    fragRandomSpread: 6
+    bulletInterval: 6
     splashDamage: 720
-    splashDamageRadius: 28
-    fragBullet: {
-      type: artilleryBulletType 
-      speed: 8
-      lifetime: 30
-      fragBullets: 1
-      fragVelocityMin: 1
-      damage: 200
-      pierce: true
-      pierceCap: 2
-      fragRandomSpread: 6
-      splashDamage: 460
-      splashDamageRadius: 24
-      fragBullet: {
-        type: artilleryBulletType 
-        speed: 6
-        lifetime: 30
-        damage: 100
-        pierce: true
-        pierceCap: 2
-        splashDamage: 230
-        splashDamageRadius: 20
-}}}}
+    splashDamageRadius: 35.25
+    intervalBullet: {
+      speed: 1
+      lifetime: 2
+      splashDamage: 160
+      splashDamageRadius: 16
+}
+name: point-defence
+  type: pointDefenceWeapon
+  reload: 5
+  alternate: true
+  shootCone: 360
+  x: 4
+  y: -8
+  rotate: true
+    bullet: {
+    maxRange: 110
+    damage: 56.25
+}
 ]
 abilities: [
 {
