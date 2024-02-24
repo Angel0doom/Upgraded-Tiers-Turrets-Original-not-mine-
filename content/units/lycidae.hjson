@@ -47,13 +47,14 @@ name: lycidae-main
     intervalBullets: 1
     damage: 300
     pierce: true
-    pierceCap: 2
+    pierceCap: 4
     bulletInterval: 6
     splashDamage: 720
     splashDamageRadius: 35.25
     intervalBullet: {
       speed: 1
       lifetime: 2
+      damage: 37.5
       splashDamage: 160
       splashDamageRadius: 16
 }
