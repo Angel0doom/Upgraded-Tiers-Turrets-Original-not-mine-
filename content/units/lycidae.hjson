@@ -45,6 +45,7 @@ name: lycidae-main
     speed: 10
     lifetime: 30
     fragBullets: 1
+    fragVelocityMin: 1
     damage: 300
     pierce: true
     pierceCap: 2
@@ -53,9 +54,11 @@ name: lycidae-main
     splashDamage: 720
     splashDamageRadius: 28
     fragBullet: {
+      type: artilleryBulletType 
       speed: 8
       lifetime: 30
       fragBullets: 1
+      fragVelocityMin: 1
       damage: 200
       pierce: true
       pierceCap: 2
@@ -63,6 +66,7 @@ name: lycidae-main
       splashDamage: 460
       splashDamageRadius: 24
       fragBullet: {
+        type: artilleryBulletType 
         speed: 6
         lifetime: 30
         damage: 100
