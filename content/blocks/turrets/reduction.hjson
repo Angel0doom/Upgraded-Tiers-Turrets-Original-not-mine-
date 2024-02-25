@@ -3,7 +3,7 @@ description: Fires huge energy canisters at enemy targets. Requires cyanogen.
 size: 5
 basePrefix: reinforced-
 inaccuracy: 0
-reload: 300
+reload: 460
 range: 430
 ammoPerShot: 20
 category: turret
@@ -29,7 +29,7 @@ ammoTypes: {
     damage: 0
     speed: 1.2
     splashDamage: 650
-    splashDamageRadius: 160
+    splashDamageRadius: 190
     trailInterval: 2
     trailEffect: {
       effect: titanSmoke 
@@ -49,7 +49,7 @@ ammoTypes: {
     lifetime: 359
     sprite: missile-large
     bulletInterval: 3.6
-   hitEffect: {
+    hitEffect: {
     type: MultiEffect
     effects: [
         {
@@ -77,7 +77,7 @@ ammoTypes: {
           particles: 3
           sizeFrom: 23
           sizeTo: 0
-          colorTo: 8bff
+          colorTo: 8bff66
           }
       ]
   }
