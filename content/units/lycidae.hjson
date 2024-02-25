@@ -3,7 +3,7 @@ type: legs
 name: Lycidae
 health: 32000
 armor: 42
-description: ye
+description: Fires explosive shells at enemy targets. Protects groups with a directional shield.
 speed: 1
 hovering: true
 hitSize: 58
@@ -83,7 +83,7 @@ radius: 120
 regen: 40
 whenShooting: true
 width: 6
-y: -12
+y: -24
 }
 ]
 
