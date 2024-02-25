@@ -20,7 +20,10 @@ consumes: {
       amount: 0.8
    }
 }
-research: phase-synthesizer
+research: {
+parent: surge-crucible
+}
+research: origin
 requirements: [
    phase-fabric/150
    oxide/300
