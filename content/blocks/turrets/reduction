@@ -32,6 +32,7 @@ ammoTypes: {
     splashDamageRadius: 160
     trailInterval: 2
     trailEffect: {
+      effect: titanSmoke 
       lifetime: 25
       length: 10
       particles: 2
@@ -52,60 +53,57 @@ ammoTypes: {
     type: MultiEffect
     effects: [
         {
+          effect: titanSmoke
           lifetime: 1420
           length: 160
-         sizeInterp: pow10Out
-         interp: pow3In
           particles: 12
           sizeFrom: 14
           sizeTo: 0
           colorTo: 8bff66
           }
         {
+          effect: titanSmoke
           lifetime: 1110
           length: 190
-         sizeInterp: pow10Out
-         interp: pow3In
           particles: 39
           sizeFrom: 7
           sizeTo: 0
           colorTo: 8bff66
           }
         {
+          effect: titanSmoke
           lifetime: 1630
           length: 90
           particles: 3
           sizeFrom: 23
           sizeTo: 0
-         sizeInterp: pow10Out
-         interp: pow3In
           colorTo: 8bff
           }
       ]
   }
-    status: melting
+    status: corrosion
     statusDuration: 300
     intervalBullet: {
         instantDisappear: true
          damage: 0
         splashDamage: 90
         splashDamageRadius: 80
-        status: slow
+        status: corrosion
         statusDuration: 40
         hitEffect: {
           lifetime: 60
+          effect: titanSmoke
           length: 80
           particles: 2
           sizeFrom: 15
           sizeTo: 0
           colorTo: 8bff66
-         sizeInterp: pow10Out
-         interp: pow3In
             }
     }
 }
 }
 research: {
 parent: titan
+objectives:[
+origin]
 }
-research: origin
