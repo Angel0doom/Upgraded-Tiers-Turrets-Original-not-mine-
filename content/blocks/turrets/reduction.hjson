@@ -32,27 +32,43 @@ ammoTypes: {
     splashDamageRadius: 160
     trailInterval: 2
     trailEffect: {
-      lifetime: 50
-      length: 80
+      lifetime: 25
+      length: 10
       particles: 2
-      sizeFrom: 12
+      sizeFrom: 6
       sizeTo: 0
       colorFrom: 8bff66
       }
     trailLength: 18
     trailWidth: 12
     height: 14
-    bulletInterval: 80
+    bulletInterval: 20
     width: 12
     trailColor: 8bff66
     lifetime: 359
     sprite: missile-large
     bulletInterval: 3.6
           hitEffect: {
-          lifetime: 1630
+          lifetime: 1420
           length: 160
-          particles: 83
-          sizeFrom: 30
+          particles: 12
+          sizeFrom: 14
+          sizeTo: 0
+          colorTo: 8bff66
+            }
+          hitEffect: {
+          lifetime: 1110
+          length: 190
+          particles: 39
+          sizeFrom: 7
+          sizeTo: 0
+          colorTo: 8bff66
+            }
+          hitEffect: {
+          lifetime: 1630
+          length: 90
+          particles: 3
+          sizeFrom: 23
           sizeTo: 0
           colorTo: 8bff66
             }
