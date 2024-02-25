@@ -2,6 +2,7 @@ name: Assembler Module
 type: UnitAssemblerModule
 category: units
 health: 4100
+size: 5
 description: Greatly increases tier when placed next to a construction boundary. Requires power. Can be used as a payload input.
 tier: 2
 requirements: [
@@ -10,3 +11,4 @@ requirements: [
   signet/200
   silicon/1200
 ]
+research: basic-assembler-module
