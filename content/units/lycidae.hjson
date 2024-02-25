@@ -61,6 +61,9 @@ name: lycidae-main
       damage: 0
       splashDamageRadius: 52
 }
+}
+}
+{
 name: point-defence
   type: pointDefenceWeapon
   reload: 5
