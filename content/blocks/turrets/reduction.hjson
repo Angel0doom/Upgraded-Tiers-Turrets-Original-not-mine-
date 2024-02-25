@@ -1,7 +1,7 @@
 name: Reduction
 description: Fires huge energy canisters at enemy targets. Requires cyanogen.
 size: 5
-basePrefix: reinforced
+basePrefix: reinforced-
 inaccuracy: 0
 reload: 300
 range: 430
