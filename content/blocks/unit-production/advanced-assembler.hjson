@@ -50,8 +50,9 @@ requirements: [
   phase-fabric/300
   signet/700
 ]
-research: tank-fabricator
+research: {
+parent: prime-refabricator
+}
 research: basic-assembler-module 
-research: signet
 research: cerilonyte 
 category: units
