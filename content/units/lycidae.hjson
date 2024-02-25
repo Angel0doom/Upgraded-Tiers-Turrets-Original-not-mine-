@@ -51,7 +51,7 @@ name: lycidae-main
     pierce: true
     pierceCap: 18
     damage: 0
-    bulletInterval: 2
+    bulletInterval: 1
     intervalBullet: {
       instantDisappear: true
       splashDamage: 190
