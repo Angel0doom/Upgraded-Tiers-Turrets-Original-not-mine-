@@ -1,7 +1,7 @@
 name: Large Signet wall
 insulated: true
-size: 3
-health: 12620
+size: 2
+health: 6710
 description: Protects structures from enemy projectiles.
   requirements: [
     signet/56
