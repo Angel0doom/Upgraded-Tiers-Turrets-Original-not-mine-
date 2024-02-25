@@ -48,10 +48,10 @@ ammoTypes: {
     sprite: missile-large
     bulletInterval: 3.6
           hitEffect: {
-          lifetime: 150
+          lifetime: 170
           length: 160
-          particles: 8
-          sizeFrom: 20
+          particles: 30
+          sizeFrom: 30
           sizeTo: 0
           colorTo: 8bff66
             }
@@ -65,10 +65,10 @@ ammoTypes: {
         status: slow
         statusDuration: 40
         hitEffect: {
-          lifetime: 370
+          lifetime: 150
           length: 80
-          particles: 30
-          sizeFrom: 30
+          particles: 8
+          sizeFrom: 15
           sizeTo: 0
           colorTo: 8bff66
             }
