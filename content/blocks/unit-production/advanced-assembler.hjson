@@ -1,4 +1,4 @@
-name: Advanced assembler
+name: Advanced Assembler
 description: Assembles huge units out of imputed structures. Output tier may be increased by adding modules.
 size: 6
 type: UnitAssembler
