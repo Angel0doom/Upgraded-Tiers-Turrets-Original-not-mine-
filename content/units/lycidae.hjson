@@ -39,7 +39,6 @@ name: lycidae-main
   alternate: true
   inaccuracy: 0
   shootStatus: slow
-  fragBullets: 1
   statusDuration: 125
   shootCone: 0
   x: 17
@@ -49,6 +48,7 @@ name: lycidae-main
     speed: 10
     lifetime: 30
     shootStatus: slow
+    fragBullets: 1
     alwaysShootWhenMoving: true
     intervalBullets: 1
     pierceBuildings: true
