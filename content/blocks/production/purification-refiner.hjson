@@ -19,11 +19,12 @@ consumes: {
       liquid: nitrogen
       amount: 0.8
    }
-}
 research: {
-parent: surge-crucible
+  parent: surge-crucible
+    objectives: [
+      origin
+        ]
 }
-research: origin
 requirements: [
    phase-fabric/150
    oxide/300
