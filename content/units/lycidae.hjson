@@ -38,7 +38,7 @@ name: lycidae-main
   alternate: true
   inaccuracy: 0
   shootCone: 10
-  x: 12
+  x: 17
   y: -16
   bullet: {
     type: artilleryBulletType 
@@ -66,9 +66,9 @@ name: lycidae-main
 {
 name: point-defence
   type: pointDefenceWeapon
-  reload: 5
+  reload: 10
   alternate: true
-  shootCone: 360
+  shootCone: 90
   x: 4
   y: -8
   rotate: true
