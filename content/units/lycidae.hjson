@@ -44,11 +44,12 @@ name: lycidae-main
     type: artilleryBulletType 
     speed: 10
     lifetime: 30
+    shootStatus: slow
     intervalBullets: 1
     pierceBuildings: true
     pierce: true
     pierceCap: 18
-    damage: 132
+    damage: 0
     bulletInterval: 2
     intervalBullet: {
       instantDisappear: true
@@ -59,7 +60,7 @@ name: lycidae-main
       instantDisappear: true
       splashDamage: 720
       damage: 0
-      splashDamageRadius: 56
+      splashDamageRadius: 43
 }
 }
 }
