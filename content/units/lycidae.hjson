@@ -38,7 +38,9 @@ name: lycidae-main
   mirror: true
   alternate: true
   inaccuracy: 0
-  shootCone: 10
+  shootStatus: slow
+  always
+  shootCone: 0
   x: 17
   y: -16
   bullet: {
@@ -46,12 +48,13 @@ name: lycidae-main
     speed: 10
     lifetime: 30
     shootStatus: slow
+    alwaysShootWhenMoving: true
     intervalBullets: 1
     pierceBuildings: true
     pierce: true
     pierceCap: 18
     damage: 0
-    bulletInterval: 1
+    bulletInterval: 4
     intervalBullet: {
       instantDisappear: true
       splashDamage: 190
@@ -67,6 +70,7 @@ name: lycidae-main
 }
 {
 name: point-defence
+  rotate: true
   type: pointDefenceWeapon
   reload: 10
   alternate: true
