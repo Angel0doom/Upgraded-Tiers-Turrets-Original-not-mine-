@@ -1,0 +1,6 @@
+name: Corroding
+type: statusEffect
+speedMultiplier: 0.2
+damage: 6
+healthMultiplier: 0.7
+reloadMultiplier: 0.3
