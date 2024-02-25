@@ -12,9 +12,13 @@ research: {
         ]
     }
 consumes: {
-  power: 4.2
+  power: 4.5
   liquids: {
     liquid: cerilonyte
     amount: 0.3
       }
 }
+requirements: [
+  beryllium/300
+  tungsten/170
+  carbide/230
