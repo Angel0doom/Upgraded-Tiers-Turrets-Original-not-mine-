@@ -39,6 +39,7 @@ name: lycidae-main
   alternate: true
   inaccuracy: 0
   shootStatus: slow
+  fragBullets: 1
   statusDuration: 125
   shootCone: 0
   x: 17
