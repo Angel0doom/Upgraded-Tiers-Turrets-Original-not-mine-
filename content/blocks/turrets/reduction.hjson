@@ -48,31 +48,7 @@ ammoTypes: {
     lifetime: 359
     sprite: missile-large
     bulletInterval: 3.6
-          hitEffect: {
-          lifetime: 1420
-          length: 160
-          particles: 12
-          sizeFrom: 14
-          sizeTo: 0
-          colorTo: 8bff66
-            }
-          hitEffect: {
-          lifetime: 1110
-          length: 190
-          particles: 39
-          sizeFrom: 7
-          sizeTo: 0
-          colorTo: 8bff66
-            }
-          hitEffect: {
-          lifetime: 1630
-          length: 90
-          particles: 3
-          sizeFrom: 23
-          sizeTo: 0
-          colorTo: 8bff66
-            }
-hiteffect: {
+   hiteffect: {
     type: MultiEffect
     effects: [
         {
