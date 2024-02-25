@@ -52,7 +52,10 @@ requirements: [
 ]
 research: {
 parent: prime-refabricator
+objectives: [
+  cerilonyte
+]
 }
 research: basic-assembler-module 
-research: cerilonyte 
+
 category: units
