@@ -8,6 +8,8 @@ description: Protects structures from enemy projetiles.
     signet/6
     oxide/8
   ]
-research: sheilded-wall
+research: {
+parent: sheilded-wall
+}
 type: Wall
 category: defense
