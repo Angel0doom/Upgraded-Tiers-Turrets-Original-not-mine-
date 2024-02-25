@@ -55,7 +55,7 @@ ammoTypes: {
           lifetime: 1420
           length: 160
          sizeInterp: pow10Out
-         interp: pow3in
+         interp: pow3In
           particles: 12
           sizeFrom: 14
           sizeTo: 0
@@ -65,7 +65,7 @@ ammoTypes: {
           lifetime: 1110
           length: 190
          sizeInterp: pow10Out
-         interp: pow3in
+         interp: pow3In
           particles: 39
           sizeFrom: 7
           sizeTo: 0
@@ -78,7 +78,7 @@ ammoTypes: {
           sizeFrom: 23
           sizeTo: 0
          sizeInterp: pow10Out
-         interp: pow3in
+         interp: pow3In
           colorTo: 8bff
           }
       ]
@@ -100,7 +100,7 @@ ammoTypes: {
           sizeTo: 0
           colorTo: 8bff66
          sizeInterp: pow10Out
-         interp: pow3in
+         interp: pow3In
             }
     }
 }
