@@ -21,7 +21,6 @@ consumes: {
    }
 }
 research: phase-synthesizer
-research: origin
 requirements: [
    phase-fabric/150
    oxide/300
