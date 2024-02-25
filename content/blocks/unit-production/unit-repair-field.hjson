@@ -1,0 +1,20 @@
+name: Unit Repair Field
+size: 3
+health: 1270
+type: repairTower
+category: units
+range: 226
+healAmount: 13
+research: {
+  parent: unit-repair-tower
+    objectives: [
+    cerilonyte 
+        ]
+    }
+consumes: {
+  power: 4.2
+  liquids: {
+    liquid: cerilonyte
+    amount: 0.3
+      }
+}
