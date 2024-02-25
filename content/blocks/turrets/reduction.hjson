@@ -32,14 +32,14 @@ ammoTypes: {
     splashDamageRadius: 160
     trailInterval: 2
     trailEffect: {
-      lifetime: 300
+      lifetime: 50
       length: 80
-      particles: 14
+      particles: 2
       sizeFrom: 12
       sizeTo: 0
       colorFrom: 8bff66
       }
-    trailLength: 400
+    trailLength: 18
     trailWidth: 12
     height: 14
     bulletInterval: 80
