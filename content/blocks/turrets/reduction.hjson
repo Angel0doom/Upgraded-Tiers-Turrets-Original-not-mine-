@@ -48,7 +48,7 @@ ammoTypes: {
     lifetime: 359
     sprite: missile-large
     bulletInterval: 3.6
-   hiteffect: {
+   hitEffect: {
     type: MultiEffect
     effects: [
         {
