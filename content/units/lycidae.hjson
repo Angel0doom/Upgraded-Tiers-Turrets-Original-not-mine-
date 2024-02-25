@@ -88,7 +88,7 @@ radius: 120
 regen: 40
 whenShooting: true
 width: 6
-y: -128
+y: -100
 }
 ]
 research: advanced-assembler
