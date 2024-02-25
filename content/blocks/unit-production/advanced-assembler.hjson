@@ -16,7 +16,7 @@ type: UnitAssemblerPlan
   unit: lycidae
       time: 16560
         requirements: [
-          large-signet-wall/14
+          upgradedturrettiers-large-signet-wall/14
           mech-refabricator/2
           chemical-combustion-chamber/1
 ]
@@ -26,7 +26,7 @@ type: UnitAssemblerPlan
   unit: intercept
       time: 17930
         requirements: [
-          large-signet-wall/10
+          upgradedturrettiers-large-signet-wall/10
           ship-refabricator/1
           chemical-combustion-chamber/2
 ]
@@ -36,9 +36,9 @@ type: UnitAssemblerPlan
   unit: surmount
       time: 22080
         requirements: [
-          large-signet-wall/20
+          upgradedturrettiers-large-signet-wall/20
           mech-refabricator/3
-          pyrolosis-generator/1
+          pyrolysis-generator/1
 ]
 }
   ]
