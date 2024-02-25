@@ -81,14 +81,14 @@ ammoTypes: {
           }
       ]
   }
-    status: corrosion
+    status: corroding
     statusDuration: 300
     intervalBullet: {
         instantDisappear: true
          damage: 0
         splashDamage: 90
         splashDamageRadius: 80
-        status: corrosion
+        status:corroding
         statusDuration: 40
         hitEffect: {
           lifetime: 60
