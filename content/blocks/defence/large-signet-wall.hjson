@@ -8,8 +8,6 @@ description: Protects structures from enemy projectiles.
     signet/24
     oxide/32
   ]
-  research: {
-parent: signet-wall
-}
+research: signet-wall
 type: Wall
 category: defense
