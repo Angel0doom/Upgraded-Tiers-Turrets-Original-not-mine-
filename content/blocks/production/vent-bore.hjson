@@ -31,5 +31,7 @@ requirements: [
   phase-fabric/230 
 	]
 category: production
-research: vent-condenser
+research: {
+parent: vent-condenser
+}
 research: signet
