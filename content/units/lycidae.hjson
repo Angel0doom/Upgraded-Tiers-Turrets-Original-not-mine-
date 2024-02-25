@@ -39,7 +39,6 @@ name: lycidae-main
   alternate: true
   inaccuracy: 0
   shootStatus: slow
-  always
   shootCone: 0
   x: 17
   y: -16
