@@ -72,7 +72,7 @@ name: lycidae-main
 name: point-defence
   rotate: true
   type: pointDefenceWeapon
-  reload: 10
+  reload: 23
   alternate: true
   shootCone: 90
   x: 4
@@ -81,6 +81,21 @@ name: point-defence
     bullet: {
     maxRange: 110
     damage: 56.25
+}
+}
+{
+name: point-defence2
+  rotate: true
+  type: pointDefenceWeapon
+  reload: 11
+  alternate: true
+  shootCone: 90
+  x: 17
+  y: -15
+  rotate: true
+    bullet: {
+    maxRange: 52
+    damage: 72
 }
 }
 ]
