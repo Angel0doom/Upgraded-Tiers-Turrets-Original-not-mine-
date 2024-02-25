@@ -1,6 +1,7 @@
 template: ErekirUnitType
 type: legs
 name: Lycidae
+faceTargets: true
 health: 32000
 armor: 42
 description: Fires explosive shells at enemy targets. Protects groups with a directional shield.
