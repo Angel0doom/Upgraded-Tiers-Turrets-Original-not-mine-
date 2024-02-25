@@ -42,6 +42,7 @@ ammoTypes: {
     trailLength: 400
     trailWidth: 12
     height: 14
+    bulletInterval: 10
     width: 12
     trailColor: 8bff66
     lifetime: 359
