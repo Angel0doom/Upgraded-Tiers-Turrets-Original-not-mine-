@@ -54,8 +54,7 @@ research: {
 parent: prime-refabricator
 objectives: [
   cerilonyte
+  basic-assembler-module 
 ]
 }
-research: basic-assembler-module 
-
 category: units
