@@ -4,8 +4,8 @@ size: 2
 health: 6700
 description: Protects structures from enemy projectiles.
   requirements: [
-    signet/56
-    oxide/140
+    signet/24
+    oxide/32
   ]
   research: signet-wall
 type: Wall
