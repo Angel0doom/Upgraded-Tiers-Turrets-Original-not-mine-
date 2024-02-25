@@ -2,3 +2,9 @@ name: Assembler Module
 health: 4100
 description: Greatly increases tier when placed next to a construction boundary. Requires power. Can be used as a payload input.
 tier: 2
+requirements: [
+  carbide/600
+  phase-fabric/900
+  signet/200
+  silicon/1200
+]
