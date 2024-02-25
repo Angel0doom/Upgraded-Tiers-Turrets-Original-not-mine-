@@ -1,5 +1,5 @@
 name: Reduction
-description: Discharges huge energy fields.
+description: Fires huge energy canisters at enemy targets. Requires cyanogen.
 size: 5
 inaccuracy: 0
 reload: 300
