@@ -2,4 +2,6 @@ name: Signet
 type: item
 description: Used in advanced construction. Needed for highly advanced structures, and super heavy units.
 cost: 3
-research: oxide
+research: {
+parent: oxide
+}
