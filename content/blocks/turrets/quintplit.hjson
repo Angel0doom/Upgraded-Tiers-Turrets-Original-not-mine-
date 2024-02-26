@@ -3,6 +3,7 @@ name: Quintplit
 description: A 5 hyperfire barrel upgrade to the Triot
 range: 216
 size: 3
+recoils: 5
 health: 2100
 category: turret
 consumes:{
