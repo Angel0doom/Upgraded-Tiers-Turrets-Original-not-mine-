@@ -60,12 +60,14 @@ name: lycidae-main
       instantDisappear: true
       splashDamage: 190
       splashDamageRadius: 14
+      hitEffect: blastExplosion
   }
     fragBullet: {
       instantDisappear: true
       splashDamage: 720
       damage: 0
       splashDamageRadius: 43
+      hitEffect: massiveExplosion
 }
 }
 }
