@@ -1,6 +1,6 @@
 name: Advanced Assembler
 description: Assembles huge units out of imputed structures. Output tier may be increased by adding modules.
-size: 6
+size: 5
 type: UnitAssembler
 configurable: true
 areaSize: 18
