@@ -31,6 +31,8 @@ stepShake: 0.6
 legPhysicsLayer: false
 legSplashDamage: 165
 legSplashRange: 12
+alwaysShootWhenMoving: true
+targetAir: false
 weapons: [
 {
 name: lycidae-main
@@ -46,12 +48,13 @@ name: lycidae-main
   bullet: {
     type: artilleryBulletType 
     speed: 10
-    lifetime: 30
+    lifetime: 10
     shootStatus: slow
     fragBullets: 1
-    alwaysShootWhenMoving: true
     intervalBullets: 1
     pierceBuildings: true
+    scaleLife: true
+    maxRange: 336
     pierce: true
     pierceCap: 18
     damage: 0
