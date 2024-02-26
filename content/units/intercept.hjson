@@ -116,6 +116,8 @@ shoot: {
     height: 12
     lifetime: 22
     damage: 65
+}
+}
 ]
 abilities: [
 {
