@@ -85,6 +85,7 @@ name: point-defence
   y: -8
   rotate: true
     bullet: {
+    type: bulletType
     maxRange: 110
     damage: 56.25
 }
