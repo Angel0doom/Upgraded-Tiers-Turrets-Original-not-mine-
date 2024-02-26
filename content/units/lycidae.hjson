@@ -48,13 +48,13 @@ name: lycidae-main
   bullet: {
     type: artilleryBulletType 
     speed: 10
-    lifetime: 10
+    lifetime: 34
     shootStatus: slow
     fragBullets: 1
     intervalBullets: 1
     pierceBuildings: true
     scaleLife: true
-    maxRange: 336
+    maxRange: 340
     pierce: true
     pierceCap: 18
     damage: 0
