@@ -31,12 +31,12 @@ stepShake: 0.6
 legPhysicsLayer: false
 legSplashDamage: 165
 legSplashRange: 12
-alwaysShootWhenMoving: true
 targetAir: false
 weapons: [
 {
 name: lycidae-main
   reload: 120
+  alwaysMoveWhenShooting: true
   mirror: true
   alternate: true
   inaccuracy: 0
