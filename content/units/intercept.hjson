@@ -50,6 +50,9 @@ shoot: {
 range: 544
   bullet: {
      spawnUnit: intercept-missile1
+     suppressionChance: 75
+     suppressionRange: 56
+     suppressionDuration: 170
 }
 }
 {
@@ -69,6 +72,9 @@ shoot: {
 range: 544
   bullet: {
     spawnUnit: intercept-missile2
+    suppressionChance: 75
+    suppressionRange: 56
+    suppressionDuration: 170
 }
 }
 {
@@ -88,8 +94,28 @@ shoot: {
 range: 544
   bullet: {
      spawnUnit: intercept-missile3
+     suppressionChance: 75
+     suppressionRange: 56
+     suppressionDuration: 170
 }
 }
+{
+reload: 20
+rotate: false
+mirror: true
+y: -18
+x: -2
+shoot: {
+  shots: 8
+  shotDelay: 2
+}
+  bullet: {
+    weaveMag: 1
+    weaveRandom: false
+    width: 7
+    height: 12
+    lifetime: 22
+    damage: 65
 ]
 abilities: [
 {
