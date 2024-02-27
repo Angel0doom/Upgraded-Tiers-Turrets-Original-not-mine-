@@ -12,10 +12,7 @@ amount: 0.1
 liquid: flourine
 amount: 0.05
 }
-liquidOutputDirections: {
-  1
-  3
-}
+liquidOutputDirections: {1,3}
 consumes: {
   power: 3.5
   items:[
