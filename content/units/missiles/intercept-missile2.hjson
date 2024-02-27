@@ -61,6 +61,9 @@ height: 0
 keepVelocity: false
 splashDamage: 190
 splashDamageRadius: 12
+suppressionChance: 75
+suppressionRange: 56
+suppressionDuration: 170
   }
 }
 ]
