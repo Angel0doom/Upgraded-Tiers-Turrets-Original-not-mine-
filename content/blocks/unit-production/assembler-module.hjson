@@ -12,3 +12,10 @@ requirements: [
   silicon/1200
 ]
 research: basic-assembler-module
+consumes: {
+  liquids: {
+    liquid: cerilonyte 
+    amount: 0.2
+    optional: false
+}
+}
