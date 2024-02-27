@@ -1,0 +1,22 @@
+name: Electro-Static Generator
+description: Divides surge into hydrogen and fluorine. requires heat.
+type: HeatProducer
+size: 3
+craftTime: 30
+hasLiquids: true
+liquidCapacity: 80
+heatOutput: 16
+outputLiquids: {
+hydrogen/0.05
+flourine/0.1
+}
+liquidOutputDirections: {1 3}
+consumes: {
+  power: 3.5
+  items:[
+    surge-alloy/2
+  ]
+  liquids:{
+  cerilonyte: 0.05
+  }
+}
