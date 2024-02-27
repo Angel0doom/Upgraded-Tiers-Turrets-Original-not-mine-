@@ -1,10 +1,10 @@
 name: Cerilonyte
 type: liquid
 gas: true
-description: Used frequently in advanced chemical reactions. Highly explosive.
-flammability: 0.6
-explosiveness: 1.5
-temperature: 0.1
+description: Used frequently in advanced chemical reactions.
+flammability: 0
+explosiveness: 0
+temperature: 1.5
 gasColor: d6ef58
 color: dceb90
 barColor: bccf34
