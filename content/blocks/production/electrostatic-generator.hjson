@@ -6,7 +6,7 @@ craftTime: 30
 hasLiquids: true
 liquidCapacity: 80
 heatOutput: 16
-outputLiquids: {
+outputLiquids: [
 {
 liquid: hydrogen
 amount: 0.1
@@ -15,7 +15,7 @@ amount: 0.1
 liquid: flourine
 amount: 0.05
 }
-}
+]
 liquidOutputDirections: [
   1,
   3
