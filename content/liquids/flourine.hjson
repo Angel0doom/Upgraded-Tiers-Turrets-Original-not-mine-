@@ -3,6 +3,6 @@ type: liquid
 description: Used in unit construction and highly advanced reactors. Highly explosive.
 viscosity: 0.5
 temperature: 0.75
-explosiveness: 2
+explosiveness: 3
 flammability: 0
 reaserch: ozone
