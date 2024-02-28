@@ -36,4 +36,5 @@ craftEffect: smoke
 drawer: [
 {
   type: drawFlame
-  
+}
+]
