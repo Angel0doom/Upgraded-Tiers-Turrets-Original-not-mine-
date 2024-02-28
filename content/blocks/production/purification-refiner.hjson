@@ -32,6 +32,8 @@ requirements: [
    carbide/450
    surge-alloy/200
 ]
-craftEffect: {
- type: drawFlame
-}
+craftEffect: smoke
+drawer: [
+{
+  type: drawFlame
+  
