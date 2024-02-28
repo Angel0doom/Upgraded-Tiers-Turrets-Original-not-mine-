@@ -29,4 +29,5 @@ drawer: [
 {
   type: drawCells
 }
+]
 catagory: crafting
