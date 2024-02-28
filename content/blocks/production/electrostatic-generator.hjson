@@ -7,11 +7,14 @@ hasLiquids: true
 liquidCapacity: 80
 heatOutput: 16
 outputLiquids: {
+{
 liquid: hydrogen
 amount: 0.1
+}
+{
 liquid: flourine
 amount: 0.05
-]
+}
 }
 liquidOutputDirections: [
   1,
