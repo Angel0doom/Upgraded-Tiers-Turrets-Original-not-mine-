@@ -33,6 +33,8 @@ drawer: [
 {
   type: drawPlasma
 }
+{
+  type: drawCells
 ]
 catagory: crafting
 requirements: [ 
