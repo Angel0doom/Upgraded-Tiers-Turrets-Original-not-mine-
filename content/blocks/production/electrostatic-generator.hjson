@@ -34,7 +34,10 @@ drawer: [
   type: drawPlasma
 }
 {
-  type: drawCells
+  type: drawMultiWeave
+}
+{
+  type: drawPistons
 }
 ]
 catagory: crafting
