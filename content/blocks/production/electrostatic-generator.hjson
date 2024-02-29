@@ -34,9 +34,6 @@ drawer: [
   type: drawPlasma
 }
 {
-  type: drawMultiWeave
-}
-{
   type: drawPistons
 }
 ]
