@@ -10,6 +10,20 @@ name: t1-main
 reload: 3
 rotate: false
 shootCone: 180
+range: 32
 shootStatus: corrosion
-  statusDuration: 5
+  statusDuration: 3
 rotationLimit: 0                                                                                                                  
+shoot:[
+  shootSpread: 60
+  shots: 6
+]
+bullet: {
+  bulletType: laserBoltBulletType 
+  damage: 14
+  lifetime: 2
+  speed: 16
+  pierce: true
+}
+}
+]
