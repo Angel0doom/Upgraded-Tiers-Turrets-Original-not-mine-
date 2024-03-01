@@ -1,4 +1,5 @@
 name: T1
+faceTargets: false
 description: no
 size: 10.56
 health: 560
