@@ -13,7 +13,7 @@ rotate: false
 shootCone: 180
 range: 32
 shootStatus: fracture1
-shootslStatusDuration: 1
+shootStatusDuration: 1
 rotationLimit: 0                                                                                                                  
 shoot:{
   shootSpread: 60
