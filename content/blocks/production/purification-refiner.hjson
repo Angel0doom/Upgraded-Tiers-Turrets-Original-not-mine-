@@ -38,3 +38,5 @@ drawer: [
   type: drawFlame
 }
 ]
+loopSound: laserBeam
+LoopSoundVolume: 0.3
