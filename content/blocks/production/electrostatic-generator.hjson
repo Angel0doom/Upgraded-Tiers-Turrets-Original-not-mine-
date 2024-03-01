@@ -29,7 +29,14 @@ consumes: {
   cerilonyte: 0.05
   }
 }
-
+drawer: [
+{
+  type: drawPistons
+}
+{
+  type: drawPlasma 
+}
+]
 catagory: crafting
 requirements: [ 
   beryllium/650
