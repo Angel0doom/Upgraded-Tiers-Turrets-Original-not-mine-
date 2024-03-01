@@ -1,2 +1,4 @@
 name: Fracture 1
 damage: 5
+speedMultiplier: 0
+type: statusEffect 
