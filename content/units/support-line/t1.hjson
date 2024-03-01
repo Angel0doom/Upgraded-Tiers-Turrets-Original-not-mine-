@@ -1,7 +1,7 @@
 name: T1
 description: no
 size: 10.56
-health: 190
+health: 560
 targetAir:false
 targetable: false
 weapons: [
