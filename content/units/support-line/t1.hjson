@@ -14,10 +14,10 @@ range: 32
 shootStatus: corroding
   statusDuration: 3
 rotationLimit: 0                                                                                                                  
-shoot:[
+shoot:{
   shootSpread: 60
   shots: 6
-]
+}
 bullet: {
   bulletType: laserBoltBulletType 
   damage: 14
