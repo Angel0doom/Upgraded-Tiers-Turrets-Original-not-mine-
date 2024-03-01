@@ -7,12 +7,12 @@ targetable: false
 weapons: [
 {
 name: t1-main
-reload: 3
+reload: 1
 rotate: false
 shootCone: 180
 range: 32
-shootStatus: corroding
-  statusDuration: 3
+shootStatus: fracture1
+  statusDuration: 1
 rotationLimit: 0                                                                                                                  
 shoot:{
   shootSpread: 60
