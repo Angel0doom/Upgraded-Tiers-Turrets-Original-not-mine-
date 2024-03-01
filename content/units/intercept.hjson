@@ -42,11 +42,6 @@ mirror: true
 shootCone: 180
 y: 20
 x: -15
-shoot: {
-  type: shootAlternate
-  barrels: 2
-  spread: 3
-}
 range: 544
   bullet: {
      spawnUnit: intercept-missile1
@@ -60,12 +55,7 @@ alternate: true
 mirror: true
 shootCone: 180
 y: 15
-x: -17
-shoot: {
-  type: shootAlternate
-  barrels: 2
-  spread: 3
-}
+x: -1
 range: 544
   bullet: {
     spawnUnit: intercept-missile2
@@ -80,33 +70,9 @@ mirror: true
 shootCone: 180
 y: 10
 x: -10
-shoot: {
-  type: shootAlternate
-  barrels: 2
-  spread: 3
-}
 range: 544
   bullet: {
      spawnUnit: intercept-missile3
-}
-}
-{
-reload: 20
-rotate: false
-mirror: true
-y: -18
-x: -2
-shoot: {
-  shots: 8
-  shotDelay: 2
-}
-  bullet: {
-    weaveMag: 1
-    weaveRandom: false
-    width: 7
-    height: 12
-    lifetime: 22
-    damage: 65
 }
 }
 ]
