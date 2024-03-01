@@ -11,7 +11,7 @@ reload: 3
 rotate: false
 shootCone: 180
 range: 32
-shootStatus: corrosion
+shootStatus: corroding
   statusDuration: 3
 rotationLimit: 0                                                                                                                  
 shoot:[
