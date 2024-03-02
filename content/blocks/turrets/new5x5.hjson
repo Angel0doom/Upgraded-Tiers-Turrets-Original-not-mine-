@@ -1,0 +1,8 @@
+name: 5x5
+description: yes
+size: 5
+reload: 2
+inaccuracy: 2
+range: 170.4
+category: turret
+type: poweTurret
