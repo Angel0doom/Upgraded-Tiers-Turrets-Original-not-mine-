@@ -25,6 +25,6 @@ bullet: {
   width: 1
   sapStrength: 0.1
 }
-requirements: {
+requirements: [
   beryllium/1
-}
+]
