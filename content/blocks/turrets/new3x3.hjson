@@ -1,4 +1,4 @@
-name: 5x5
+name: 3x3
 description: yes
 size: 3
 reload: 2
@@ -7,3 +7,24 @@ range: 170.4
 category: turret
 type: powerTurret
 recoil: 2
+health: 3800
+consumes: {
+power: 7.3
+  coolant: {
+    amount: 0.3
+}
+}
+shoot: {
+  type: alternate 
+  barrels: 3
+}
+bullet: {
+  type: sapBulletType
+  damage: 18.5
+  length: 170.4
+  width: 1
+  sapStrength: 0.1
+}
+requirements: {
+  beryllium/1
+}
