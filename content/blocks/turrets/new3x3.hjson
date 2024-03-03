@@ -9,7 +9,7 @@ type: powerTurret
 recoil: 2
 health: 3800
 consumes: {
-power: 7.3
+power: 7.5
   coolant: {
     amount: 0.3
 }
