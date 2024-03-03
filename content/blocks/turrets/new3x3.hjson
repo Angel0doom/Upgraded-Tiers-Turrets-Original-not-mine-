@@ -24,7 +24,7 @@ shootType: {
   buildingDamageMultiplier: 0.75
   damage: 18
   length: 170.4
-  statusEffect: fracture
+  status: fracture
   effectDuration: 3
 }
 requirements: [
