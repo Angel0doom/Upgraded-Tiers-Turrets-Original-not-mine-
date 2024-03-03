@@ -17,7 +17,7 @@ power: 7.3
 shoot: {
   type: shootAlternate 
   barrels: 3
-  spread: 5
+  spread: 3
 }
 shootType: {
   type: railBulletType
