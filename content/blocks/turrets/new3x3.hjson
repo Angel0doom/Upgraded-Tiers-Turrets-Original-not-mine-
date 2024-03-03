@@ -1,4 +1,4 @@
-name: 3x3
+¹name: 3x3
 description: yes
 size: 3
 reload: 2
@@ -18,7 +18,7 @@ shoot: {
   type: alternate 
   barrels: 3
 }
-dhootType: {
+shootType: {
   type: sapBulletType
   damage: 18.5
   length: 170.4
