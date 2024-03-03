@@ -1,8 +1,8 @@
 name: 3x3
 description: yes
 size: 3
-reload: 2
-inaccuracy: 0.2
+reload: 2.5
+inaccuracy: 0
 range: 170.4
 category: turret
 type: powerTurret
@@ -21,8 +21,11 @@ shoot: {
 }
 shootType: {
   type: railBulletType
-  damage: 18.5
+  buildingDamageMultiplier: 0.75
+  damage: 18
   length: 170.4
+  statusEffect: fracture
+  effectDuration: 3
 }
 requirements: [
   beryllium/1
