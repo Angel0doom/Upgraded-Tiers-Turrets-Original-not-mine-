@@ -18,7 +18,7 @@ shoot: {
   type: alternate 
   barrels: 3
 }
-bullet: {
+dhootType: {
   type: sapBulletType
   damage: 18.5
   length: 170.4
