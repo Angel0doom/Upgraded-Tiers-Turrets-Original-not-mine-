@@ -2,7 +2,7 @@ name: 3x3
 description: yes
 size: 3
 reload: 2
-inaccuracy: 2
+inaccuracy: 0.2
 range: 170.4
 category: turret
 type: powerTurret
@@ -15,8 +15,9 @@ power: 7.3
 }
 }
 shoot: {
-  type: alternate 
+  type: shootAlternate 
   barrels: 3
+  spread: 5
 }
 shootType: {
   type: sapBulletType
