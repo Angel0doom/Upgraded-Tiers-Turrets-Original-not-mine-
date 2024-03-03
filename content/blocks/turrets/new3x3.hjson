@@ -20,11 +20,9 @@ shoot: {
   spread: 5
 }
 shootType: {
-  type: sapBulletType
+  type: railBulletType
   damage: 18.5
   length: 170.4
-  width: 1
-  sapStrength: 0.1
 }
 requirements: [
   beryllium/1
