@@ -19,6 +19,7 @@ consumes: [
   items:[
   item: phase-fabric
   amount: 8
+  ]
 ]
 type: overdriveProjector 
 category: effect
