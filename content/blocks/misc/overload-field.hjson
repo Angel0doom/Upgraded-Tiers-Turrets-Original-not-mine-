@@ -10,16 +10,16 @@ requirements: [
 reload: 10
 range: 160
 hasBoost: false
-consumes: [
+consumes: {
   power: 21
-  liquid:[
+  liquid:{
     liquid: slag
     amount: 0.4
-  ]
+  }
   items:[
-  item: phase-fabric
-  amount: 8
+  phase-fabric/8
   ]
-]
+}
 type: overdriveProjector 
 category: effect
+itemCapacity: 30
