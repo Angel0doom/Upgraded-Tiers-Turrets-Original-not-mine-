@@ -1,2 +1,20 @@
 name: Overload Field
 size: 4x4
+description: Overloads surrounding blocks when powered. Requires large amounts of phase fabric.
+requirements: [
+  phase-fabric/700
+  signet/500
+  oxide/1200
+  silicon/900
+]
+reload: 10
+range: 160
+hasBoost: false
+consumes: [
+  power: 21
+  liquid:[
+    liquid: slag
+    amount: 0.4
+  ]
+  phase-fabric/12
+]
