@@ -23,3 +23,4 @@ consumes: {
 type: overdriveProjector 
 category: effect
 itemCapacity: 30
+speedBoost: 2
