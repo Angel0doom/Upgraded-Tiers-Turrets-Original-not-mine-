@@ -16,7 +16,9 @@ consumes: [
     liquid: slag
     amount: 0.4
   ]
-  phase-fabric/12
+  items:[
+  item: phase-fabric
+  amount: 8
 ]
 type: overdriveProjector 
 category: effect
