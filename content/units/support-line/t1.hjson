@@ -20,10 +20,10 @@ shoot:{
   shots: 6
 }
 bullet: {
-  bulletType: laserBoltBulletType 
-  damage: 14
-  lifetime: 2
-  speed: 16
+  bulletType: BasicBulletType 
+  instantDisappear: true
+  splashDamage: 14
+  splashDamageRadius: 30
   pierce: true
 }
 }
