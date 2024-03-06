@@ -1,0 +1,32 @@
+name: T2
+description: yes
+size: 16.7
+health: 970
+targetAir: false
+weapons: [
+{
+name: t2
+reload: 10
+shootOnDeath: true
+range: 36
+bullet: {
+  splashDamage: 450
+  instantDisappear: true
+  killShooter: true
+  splashDamageRadius: 56
+}
+}
+{
+name: t2-split
+reload: 10
+shootOnDeath: true
+range: 36
+shoot: [
+  shots: 6
+]
+bullet: {
+  instantDisappear: true
+  spawnUnit: t2-split
+}
+}
+]
