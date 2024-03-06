@@ -18,9 +18,8 @@ bullet: {
 }
 {
 name: t2-split
-reload: 10
 shootOnDeath: true
-range: 36
+range: 0
 shoot: {
   shots: 6
 }
