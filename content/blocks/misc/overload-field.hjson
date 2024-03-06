@@ -1,5 +1,6 @@
 name: Overload Field
 size: 4
+squareSprite: false
 description: Overloads surrounding blocks when powered. Requires large amounts of phase fabric.
 requirements: [
   phase-fabric/700
