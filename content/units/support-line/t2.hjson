@@ -21,9 +21,9 @@ name: t2-split
 reload: 10
 shootOnDeath: true
 range: 36
-shoot: [
+shoot: {
   shots: 6
-]
+}
 bullet: {
   instantDisappear: true
   spawnUnit: t2-split
