@@ -16,16 +16,11 @@ bullet: {
   splashDamageRadius: 56
 }
 }
+]
+abilities: [
 {
-name: t2-split
-shootOnDeath: true
-range: 0
-shoot: {
-  shots: 6
-}
-bullet: {
-  instantDisappear: true
-  spawnUnit: t2-split
-}
+type: spawnDeathAbility
+unit: t2-split
+amount: 6
 }
 ]
