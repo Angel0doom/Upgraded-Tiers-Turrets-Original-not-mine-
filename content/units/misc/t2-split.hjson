@@ -1,0 +1,20 @@
+name: T2-split
+faceTargets: false
+description: no
+size: 5.6
+health: 140
+targetAir:false
+targetable: false
+weapons: [
+{
+name: t2-split-main
+reload: 10
+shootOnDeath: true
+range: 24
+bullet: {
+  splashDamage: 32
+  killShooter: true
+  splashDamageRadius: 36
+}
+}
+]
