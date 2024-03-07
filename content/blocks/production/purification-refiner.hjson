@@ -39,6 +39,7 @@ drawer: [
   rotateSpeed: 4
   layers: 2
   layerSpeed: -8
+  radius: 3
 }
 ]
 loopSound: laserBeam
