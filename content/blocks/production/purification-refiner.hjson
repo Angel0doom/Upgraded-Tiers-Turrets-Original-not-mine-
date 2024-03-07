@@ -36,10 +36,10 @@ craftEffect: smoke
 drawer: [
 {
   type: drawSpikes
-  rotateSpeed: 0
+  rotateSpeed: 3
   layers: 3
   layerSpeed: 3
-  radius: -3
+  radius: 3
   amount: 2
 }
 ]
