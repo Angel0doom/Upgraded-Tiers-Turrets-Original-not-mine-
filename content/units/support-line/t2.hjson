@@ -10,7 +10,7 @@ reload: 10
 shootOnDeath: true
 range: 36
 bullet: {
-  splashDamage: 380
+  splashDamage: 350
   instantDisappear: true
   killShooter: true
   splashDamageRadius: 56
