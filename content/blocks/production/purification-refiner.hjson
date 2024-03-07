@@ -36,6 +36,9 @@ craftEffect: smoke
 drawer: [
 {
   type: drawSpikes
+  rotateSpeed: 4
+  layers: 4
+  layerSpeed: -1.5
 }
 ]
 loopSound: laserBeam
