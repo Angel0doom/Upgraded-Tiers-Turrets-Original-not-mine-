@@ -10,11 +10,11 @@ weapons: [
 name: t2-split-main
 reload: 10
 shootOnDeath: true
-range: 24
+range: 8
 bullet: {
-  splashDamage: 32
+  splashDamage: 35
   killShooter: true
-  splashDamageRadius: 36
+  splashDamageRadius: 16
 }
 }
 ]
