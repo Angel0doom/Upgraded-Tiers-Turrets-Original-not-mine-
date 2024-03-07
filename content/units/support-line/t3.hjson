@@ -1,0 +1,20 @@
+name: T3
+description: yes
+size: 27.5
+health: 4100
+targetAir: false
+trgetable: false
+weapons: [
+{
+name: t3
+reload: 10
+shootOnDeath: true
+range: 56
+bullet: {
+  splashDamage: 1320
+  instantDisappear: true
+  killShooter: true
+  splashDamageRadius: 78
+}
+}
+]
