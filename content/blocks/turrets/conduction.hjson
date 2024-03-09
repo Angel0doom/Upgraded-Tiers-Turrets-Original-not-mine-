@@ -1,0 +1,6 @@
+name: Conduction
+type: ContinuousTurret
+catagory: turret
+size: 5
+health: 10730
+description: Fires a continuous Arc of electricity at enemy targets.
