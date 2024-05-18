@@ -3,7 +3,7 @@ type: liquid
 gas: true
 description: Used frequently in advanced chemical reactions.
 flammability: 0
-explosiveness: 0
+explosiveness: 2
 temperature: 1.5
 gasColor: d6ef58
 color: dceb90
