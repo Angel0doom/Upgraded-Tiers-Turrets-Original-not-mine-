@@ -1,3 +1,47 @@
-type:ItemTurret
+type: ItemTurret
 name: Emancipate
-description: Shoots heavy explosive buckshot over long distances at enimy targets
+description: Shoots heavy incindiary explosive buckshot over long distances at enimy targets
+reload: 270
+range: 536
+size: 5
+health: 7860
+recoil: 5
+inaccuracy: 0.2
+category: turret
+consumes: {
+  power: 5.5
+  liquids: {
+    liquid: cifeine
+    amount: 0.4
+  }
+}
+ammoTypes: {
+  silicon: {
+    type: basicBulletType
+    damage: 480
+    speed: 3
+    lifetime: 11
+    width: 12
+    height: 24
+    fragVelocityMin: 0.8
+    fragVelocityMax: 1.2
+    fragRandomSpread: 68
+    fragBullets: 32
+    fragBullet: {
+      type: artilleryBulletType
+      speed: 20
+      width: 2
+      height: 4
+      damage: 42
+      splashDamage: 110
+      splashDamageRadius: 18
+    }
+  }
+}
+requirements: [
+  thorium/500
+  oxide/430
+  beryllium/900
+  phase-fabric/160
+  graphite/600
+]
