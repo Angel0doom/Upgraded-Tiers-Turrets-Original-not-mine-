@@ -12,7 +12,7 @@ ejectEffect: {
 
 }
 consumes: {
-   liquid: {
+   liquids: {
       liquid: cyanogen
       amount: 0.5
 }
