@@ -1,0 +1,11 @@
+name: Cifeine
+type: liquid
+gas: true
+description: 
+flammability: 3
+explosiveness: 2.5
+temperature: 0.6
+gasColor: ffffff
+color: aaadb7
+barColor: dab560
+research: ozone
