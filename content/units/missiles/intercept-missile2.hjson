@@ -67,10 +67,3 @@ suppressionDuration: 170
   }
 }
 ]
-abilities: [
-{
-type: SuppressionFieldAbility
-reload: 1
-range: 8
-}
-]
