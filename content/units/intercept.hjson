@@ -63,15 +63,20 @@ range: 544
 }
 {
 name: intercept-barrage3
-reload: 15
+reload: 45
 baseRotation: 45
 alternate: true
 mirror: true
+inaccuracy: 50
 shootCone: 180
 y: 10
 x: -10
 range: 544
-  bullet: {
+shoot: {
+  shots: 7
+  barrels: 5
+}
+bullet: {
      spawnUnit: intercept-missile3
 }
 }
