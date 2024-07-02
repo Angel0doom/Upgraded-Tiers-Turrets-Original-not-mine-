@@ -79,7 +79,7 @@ recoil: 6
 heatColor: ffee71
   bullet: {
   type: BasicBulletType 
-  intervalRandomSpread: 40
+  intervalRandomSpread: 360
   IntervalBullets: 3
   lifetime: 130
   speed: 3
@@ -93,14 +93,14 @@ heatColor: ffee71
   backColor: ffec5c
   trailWidth: 2.8
   trailLength: 9
-  bulletInterval: 1.5
+  bulletInterval: 1
   hitEffect: hitBulletColor
     intervalBullet: {
       type: LightningBulletType
       pierce: true
       damage: 670
       lightningLength: 40
-      lightningLengthRand: 20
+      lightningLengthRand: 30
 }
 }
 }
