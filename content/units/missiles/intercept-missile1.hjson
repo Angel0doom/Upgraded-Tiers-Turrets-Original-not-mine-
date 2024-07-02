@@ -61,16 +61,7 @@ height: 0
 keepVelocity: false
 splashDamage: 120
 splashDamageRadius: 8
-suppressionChance: 75
-suppressionRange: 56
-suppressionDuration: 170
+
   }
-}
-]
-abilities: [
-{
-type: SuppressionFieldAbility
-reload: 1
-range: 240
 }
 ]
