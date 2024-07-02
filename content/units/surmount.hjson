@@ -93,14 +93,14 @@ heatColor: ffee71
   backColor: ffec5c
   trailWidth: 2.8
   trailLength: 9
-  bulletInterval: 1
+  bulletInterval: 0.2
   hitEffect: hitBulletColor
     intervalBullet: {
       type: LightningBulletType
       pierce: true
-      damage: 670
-      lightningLength: 40
-      lightningLengthRand: 30
+      damage: 135
+      lightningLength: 15
+      lightningLengthRand: 5
 }
 }
 }
@@ -112,8 +112,8 @@ name: laser-set1
   shootSound: bolt
   x: 12
   rotate: true
-  rotateSpeed: 0.2
-  rotationLimit: 70
+  rotateSpeed: 12
+  rotationLimit: 90
   bullet: {
     type: railBulletType
     damage: 42
