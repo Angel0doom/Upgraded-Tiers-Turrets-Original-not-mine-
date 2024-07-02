@@ -95,15 +95,11 @@ heatColor: ffee71
   trailLength: 9
   hitEffect: hitBulletColor
     intervalBullet: {
-      type: BasicBulletType 
+      type: LightningBulletType
       pierce: true
-      pierceCap: 2
       damage: 170
-      collidesAir: false
-      speed: 4
-      homingPower: 0.09 
-      homingRange: 56
-      lifetime: 40
+      lightningLength: 130
+      lightningLengthRand: 20
 }
 bulletInterval: 1.5
 }
