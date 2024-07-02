@@ -117,5 +117,9 @@ whenShooting: true
 width: 6
 y: -84
 }
+[
+type: spawnDeathUnit
+unit: cleroi
+amount: 35
 ]
 research: advanced-assembler
