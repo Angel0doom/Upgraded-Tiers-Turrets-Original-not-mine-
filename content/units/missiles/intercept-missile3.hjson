@@ -3,7 +3,7 @@ template: MissileUnitType
 speed: 10
 flying: true
 health: 300
-hitSize: 6
+hitSize: 7
 rotateSpeed: 6
 controller: MissileAi
 lowAltitude: true
@@ -17,10 +17,10 @@ createWreck: false
 createScorch: false
 hidden: true
 engineOffset: 2
-engineSize: 3
+engineSize: 4
 engineColor: ff9cf4
 trailLength: 12
-trailWidth: 3
+trailWidth: 5
 trailColor: ff9cf4
 loopSound: missileTrail
 MissileAccelTime: 72
@@ -59,18 +59,11 @@ instantDissapear: true
 width: 0
 height: 0
 keepVelocity: false
-splashDamage: 280
-splashDamageRadius: 16
+splashDamage: 1020
+splashDamageRadius: 26
 suppressionChance: 75
 suppressionRange: 56
 suppressionDuration: 170
   }
-}
-]
-abilities: [
-{
-type: SuppressionFieldAbility
-reload: 1
-range: 8
 }
 ]
