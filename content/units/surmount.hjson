@@ -93,15 +93,15 @@ heatColor: ffee71
   backColor: ffec5c
   trailWidth: 2.8
   trailLength: 9
+  bulletInterval: 1.5
   hitEffect: hitBulletColor
     intervalBullet: {
       type: LightningBulletType
       pierce: true
-      damage: 170
-      lightningLength: 130
+      damage: 670
+      lightningLength: 40
       lightningLengthRand: 20
 }
-bulletInterval: 1.5
 }
 }
 {
