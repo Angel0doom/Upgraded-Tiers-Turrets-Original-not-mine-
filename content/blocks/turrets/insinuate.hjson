@@ -8,9 +8,13 @@ consumes: {
   power: 5
   }
 shoot: {
- type: shootAlternate
-  barrels: 4
-  spread: 3
+  type: ShootBarrel
+  barrels: [
+    10 4 20
+    2 7 10
+    -4 7 -10
+    10 4 -20
+  ]
 }
 ammoTypes: {
   silicon: {
