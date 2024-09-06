@@ -5,14 +5,46 @@ reload: 60
 rotateSpeed: 0.4
 ammoPerShot: 5
 consumes: {
-  power: 120
+  power: 5
   }
 shoot: {
- type: shootAlternate 
+ type: shootAlternate
   barrels: 4
   spread: 3
 }
 ammoTypes: {
   silicon: {
-    type: BasicBulletType
-    
+    type: basicBulletType
+      damage: 60
+      pierce: 4
+      lifetime: 2700
+      homingPower: 0.2
+      splashDamageRadius: 50
+      hittable: false
+      absorbable: false
+      fragBullets: 8
+      fragSpread: 22.5
+      intervalBullets: 5
+      bulletInterval: 1
+      pierceFragCap: 40
+      intervalBullet: {
+        type: lightningBulletType
+          damage: 60
+          pierce: 4
+          lightningLength: 3
+          lightningLengthRand: 2
+          hittable: false
+          absorbable: false
+      }
+}
+}
+requirements: [
+  beryllium/1500
+  tungsten/800
+  carbide/450
+  azpacite/300
+  phase-fabric/350
+  silicon/900
+]
+
+
