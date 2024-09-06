@@ -11,10 +11,10 @@ shoot: {
 shots: 2
   type: ShootBarrel
   barrels: [
-    10 4 20
-    2 7 10
-    -4 7 -10
-    10 4 -20
+    10, 4, 20
+    2, 7, 10
+    -4, 7, -10
+    10, 4, -20
   ]
 }
 ammoTypes: {
