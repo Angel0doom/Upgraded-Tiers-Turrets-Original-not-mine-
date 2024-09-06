@@ -4,7 +4,7 @@ description: shoots hot plasma
 health: 1200
 range: 800
 type: itemTurret
-reload: 60
+reload: 30
 rotateSpeed: 0.4
 ammoPerShot: 5
 shoot: {
@@ -24,7 +24,7 @@ ammoTypes: {
       speed: 3
       pierce: 4
       lifetime: 2700
-      homingPower: 0.2
+      homingPower: 0.1
       splashDamageRadius: 48
       splashDamage: 60
       hittable: false
@@ -49,7 +49,7 @@ ammoTypes: {
           pierce: 7
           lifetime: 1350
           speed: 4
-          homingPower: 0.5
+          homingPower: 0.1
           homingRange: 150
           splashDamageRadius: 24
           splashDamage: 50
