@@ -1,4 +1,5 @@
 name: Insinuate 
+category: turret
 description: shoots hot plasma
 health: 1200
 reload: 60
