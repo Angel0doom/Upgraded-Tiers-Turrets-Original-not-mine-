@@ -10,6 +10,7 @@ consumes: {
   }
 shoot: {
   type: ShootBarrel
+shots: 2
   barrels: [
     10 4 20
     2 7 10
