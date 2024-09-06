@@ -122,4 +122,5 @@ type: spawnDeathUnit
 unit: cleroi
 amount: 35
 ]
+]
 research: advanced-assembler
