@@ -2,9 +2,10 @@ name: Insinuate
 category: turret
 description: shoots hot plasma
 health: 1200
-range: 800
+range: 340
 type: itemTurret
-reload: 30
+reload: 40
+size: 5
 rotateSpeed: 0.4
 ammoPerShot: 5
 shoot: {
@@ -35,13 +36,20 @@ ammoTypes: {
       bulletInterval: 1
       pierceFragCap: 40
       intervalBullet: {
-        type: lightningBulletType
-          damage: 60
-          pierce: 4
-          lightningLength: 3
-          lightningLengthRand: 2
-          hittable: false
-          absorbable: false
+        type: BasicBulletType
+        homingPower: 10
+        homingRange: 30
+        lifetime: 1
+        fragBullets: 1
+        fragBullet:{
+          type: lightningBulletType
+            damage: 60
+            pierce: 4
+            lightningLength: 3
+            lightningLengthRand: 4
+            hittable: false
+            absorbable: false
+}
       }
       FragBullet: {
         type: BasicBulletType
