@@ -24,7 +24,7 @@ ammoTypes: {
       damage: 60
       speed: 3
       pierce: 4
-      lifetime: 2700
+      lifetime: 360
       homingPower: 0.1
       splashDamageRadius: 48
       splashDamage: 60
@@ -55,7 +55,7 @@ ammoTypes: {
         type: BasicBulletType
           damage: 50
           pierce: 7
-          lifetime: 1350
+          lifetime: 360
           speed: 4
           homingPower: 0.1
           homingRange: 150
