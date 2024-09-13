@@ -3,7 +3,7 @@ size: 4
 type: itemTurret 
 reload: 0.15
 description: shoots heavy explosives at enemy targets, with potential for insane firerates.
-inaccuracy: 35
+inaccuracy: 15
 ammoMultiplier: 12
 range: 250
 category: turret
@@ -22,12 +22,12 @@ type: shootBarrel
 recoil: 2
 ammoTypes: {
   tungsten: {
-     createChance: 0.55
+     createChance: 0.3
      type: BasicBulletType
      damage: 75
      splashDamageRadius: 16.3
      splashDamage: 60
-     lifetime: 16
+     lifetime: 32
      scaledSplashDamage: true
      speed: 8
   }
@@ -43,4 +43,4 @@ requirements: [
   silicon/300
   carbide/45
 ]
-coolantMultplier: 0.2
+coolantMultplier: 0.01
