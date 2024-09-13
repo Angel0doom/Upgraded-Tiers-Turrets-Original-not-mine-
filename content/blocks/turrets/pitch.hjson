@@ -5,8 +5,8 @@ reload: 0.15
 description: shoots heavy explosives at enemy targets, with potential for insane firerates.
 inaccuracy: 60
 ammoMultiplier: 12
-range: 
-cattegory: turret
+range: 60
+category: turret
 targetAir: false
 shoot: {
 type: shootBarrel
