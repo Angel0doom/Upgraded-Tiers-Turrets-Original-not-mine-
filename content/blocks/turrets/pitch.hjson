@@ -11,10 +11,10 @@ targetAir: false
 shoot: {
 type: shootBarrel
   barrels: [
-    11.25, 9.5, 2.5
-    6, 11, 0
     -6, 11, 0
-    -11.25, 9.5, -2.5
+    6, 11, 0
+    11.25, 9.5, 11.5
+    -11.25, 9.5, -11.5
       ]
 }
 recoil: 2
@@ -24,9 +24,9 @@ ammoTypes: {
      damage: 75
      splashDamageRadius: 16.3
      splashDamage: 60
-     lifetime: 50
+     lifetime: 2
      scaledSplashDamage: true
-     speed: 30
+     speed: 16
   }
 }
 coolant: {
