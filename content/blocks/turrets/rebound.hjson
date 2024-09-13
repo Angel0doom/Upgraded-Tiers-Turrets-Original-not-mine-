@@ -1,2 +1,68 @@
 name: Rebound
 definition: Bounces off of objects, building charge until it releases its energy at enemy targets.
+type: ItemTurret
+reload: 120
+range: 560
+shootWarmupSpeed: 0.02
+minWarmup: 0.96
+size: 5
+category: turret
+inaccuracy: 45
+recoil: 5
+rotateSpeed: 0.8
+shootSound: plasmaCannon
+ammoTypes: {
+  beryllium: {
+      type: BasicBulletType
+      damage: 280
+      collidesAir: false
+      collidesTerrain: true
+      collidesGround: true
+      hittable: false
+      homingPower: 0.04
+      homingRange: 60
+      lifetime: 100000
+      speed: 32
+      fragRandomSpread: 30
+      fragAngle: 180
+      fragBullets: 1
+      fragBullet: {
+        type: BasicBulletType
+        damage: 360
+        collidesAir: false
+        collidesTerrain: true
+        collidesGround: true
+        hittable: false
+        homingPower: 0.1
+        homingRange: 60
+        lifetime: 100000
+        speed: 32
+        fragRandomSpread: 30
+        fragAngle: 180
+        fragBullets: 1
+        fragBullet: {
+          type: BasicBulletType
+          damage: 590
+          collidesAir: false
+          collidesTerrain: true
+          collidesGround: true
+          hittable: false
+          homingPower: 0.01
+          homingRange: 60
+          lifetime: 3
+          speed: 32
+          fragRandomSpread: 30
+          fragAngle: 180
+          fragBullets: 1
+          fragBullet: {
+            type: laserBulletType
+            damage: 1540
+            length: 495
+            width: 8
+}}}}}
+requirements: [
+beryllium/3000
+silicon/2000
+tungsten/2000
+carbide/1500
+]
