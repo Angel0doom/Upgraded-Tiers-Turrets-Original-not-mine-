@@ -11,8 +11,8 @@ targetAir: false
 shoot: {
 type: shootBarrel
   barrels: [
-    -6, 11, 0
-    6, 11, 0
+    -6, 11, 21
+    6, 11, -21
     11.25, 9.5, 14.5
     -11.25, 9.5, -14.5
       ]
