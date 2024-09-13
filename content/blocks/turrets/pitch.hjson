@@ -25,9 +25,9 @@ ammoTypes: {
      damage: 75
      splashDamageRadius: 16.3
      splashDamage: 60
-     lifetime: 2
+     lifetime: 16
      scaledSplashDamage: true
-     speed: 16
+     speed: 8
   }
 }
 coolant: {
