@@ -1,0 +1,42 @@
+name: pitch
+size: 4
+type: itemTurret 
+reload: 0.15
+description: shoots heavy explosives at enemy targets, with potential for insane firerates.
+inaccuracy: 60
+ammoMultiplier: 12
+range: 
+cattegory: turret
+targetAir: false
+type: shootBarrel
+  barrels: [
+    11.25, 9.5, 2.5
+    6, 11, 0
+    -6, 11, 0
+    -11.25, 9.5, -2.5
+      ]
+  }
+recoil: 2
+ammoTypes: {
+  tungsten: {
+     type: BasicBulletType
+     damage: 75
+     splashDamageRadius: 16.3
+     splashDamage: 60
+     lifetime: 50
+     scaledSplashDamage: true
+     speed: 30
+  }
+}
+coolant: {
+  type: ConsumeLiquid
+  liquid: water
+  amount: 1
+}
+requirements: [
+  beryllium/400
+  tungsten/200
+  silicon/300
+  carbide/45
+]
+  
