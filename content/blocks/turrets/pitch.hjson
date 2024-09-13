@@ -8,6 +8,7 @@ ammoMultiplier: 12
 range: 
 cattegory: turret
 targetAir: false
+shoot: {
 type: shootBarrel
   barrels: [
     11.25, 9.5, 2.5
@@ -15,6 +16,7 @@ type: shootBarrel
     -6, 11, 0
     -11.25, 9.5, -2.5
       ]
+}
 recoil: 2
 ammoTypes: {
   tungsten: {
