@@ -6,6 +6,7 @@ range: 560
 shootWarmupSpeed: 0.02
 minWarmup: 0.96
 size: 5
+shootY: 0
 category: turret
 inaccuracy: 45
 recoil: 5
@@ -66,3 +67,5 @@ silicon/2000
 tungsten/2000
 carbide/1500
 ]
+
+*does not bounce at all when colliding with terrain.
