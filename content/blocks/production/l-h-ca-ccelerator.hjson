@@ -4,7 +4,7 @@ baseExplosiveness: 6.5
   type: HeatCrafter 
 heatRequirements: 50
 maxEfficiency: 4
-outputItem: quintessence 
+outputItem: Quintessence 
 category: crafting
 craftTime: 3
 size: 5
