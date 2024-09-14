@@ -1,0 +1,10 @@
+type: Item
+color: ff3800 
+name: Quintessence 
+description: Impure solid plasma. used as energy sources for many high tier buildings. and to power super heavy units
+explosiveness: 0
+flammability: 0.2
+radioactivity: 0
+charge: 0.05
+cost: 2
+hiddenOnPlanets: [serpulo]
