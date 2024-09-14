@@ -8,8 +8,7 @@ heatRequirements: 50
 maxEfficiency: 4
 outputItem: quintessence/1
 category: crafting
-
-craftTime: 3
+craftTime: 20
 size: 5
 conductivePower: true
 consumes: {
