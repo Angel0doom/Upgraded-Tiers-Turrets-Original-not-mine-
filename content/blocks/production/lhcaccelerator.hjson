@@ -1,0 +1,45 @@
+name: LHC accelerator
+description: supercharges surge alloy at high speeds. Extremely explosive if not kept pristine.
+baseExplosiveness: 6.5
+  type: HeatCrafter 
+heatRequirements: 50
+maxEfficiency: 4
+outputItem: quintessence 
+category: crafting
+craftTime: 3
+size: 5
+conductivePower: true
+consumes: {
+  items: [
+surge-alloy/15
+phase-fabric/3
+]
+    liquids: [
+      cyanogen/0.6
+    ]
+    power: 45
+    }
+drawer: {
+  type: DrawMulti
+  drawers: [
+{
+type: DrawRegion
+suffix: -bottom
+}
+{
+type: DrawLiquidTile
+padding: 2
+drawLiquid: cyanogen
+}
+{
+type: DrawDefault
+  }
+]
+}
+requirements: [
+  beryllium/2700
+  tungsten/1400
+  silicon/3300
+  carbide/1200
+  phase-fabric/800
+    ]
