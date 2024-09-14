@@ -2,10 +2,13 @@ name: LHC accelerator
 description: supercharges surge alloy at high speeds. Extremely explosive if not kept pristine.
 baseExplosiveness: 6.5
   type: HeatCrafter 
+itemCapacity: 60
+liquidCapacity: 100
 heatRequirements: 50
 maxEfficiency: 4
 outputItem: quintessence/1
 category: crafting
+
 craftTime: 3
 size: 5
 conductivePower: true
