@@ -17,7 +17,7 @@ ammoTypes: {
       type: BasicBulletType
       damage: 280
       collidesAir: false
-      collidesTerrain: true
+      collideTerrain: true
       collidesGround: true
       hittable: false
       homingPower: 0.04
@@ -31,7 +31,7 @@ ammoTypes: {
         type: BasicBulletType
         damage: 360
         collidesAir: false
-        collidesTerrain: true
+        collideTerrain: true
         collidesGround: true
         hittable: false
         homingPower: 0.1
@@ -45,7 +45,7 @@ ammoTypes: {
           type: BasicBulletType
           damage: 590
           collidesAir: false
-          collidesTerrain: true
+          collideTerrain: true
           collidesGround: true
           hittable: false
           homingPower: 0.5
@@ -67,5 +67,3 @@ silicon/2000
 tungsten/2000
 carbide/1500
 ]
-
-*does not bounce at all when colliding with terrain.
