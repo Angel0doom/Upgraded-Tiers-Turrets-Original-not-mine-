@@ -1,7 +1,7 @@
 name: Rebound
 definition: Bounces off of objects, building charge until it releases its energy at enemy targets.
 type: ItemTurret
-reload: 120
+reload: 75
 range: 560
 shootWarmupSpeed: 0.02
 minWarmup: 0.96
@@ -23,8 +23,8 @@ ammoTypes: {
       homingPower: 0.04
       homingRange: 60
       lifetime: 30
-      speed: 4
-      fragRandomSpread: 30
+      speed: 32
+      fragRandomSpread: 100
       fragAngle: 180
       fragBullets: 1
       fragBullet: {
@@ -37,8 +37,8 @@ ammoTypes: {
         homingPower: 0.1
         homingRange: 60
         lifetime: 30
-        speed: 4
-        fragRandomSpread: 30
+        speed: 32
+        fragRandomSpread: 100
         fragAngle: 180
         fragBullets: 1
         fragBullet: {
@@ -52,7 +52,7 @@ ammoTypes: {
           homingRange: 60
           lifetime: 30
           speed: 4
-          fragRandomSpread: 30
+          fragRandomSpread: 100
           fragAngle: 180
           fragBullets: 1
           fragBullet: {
