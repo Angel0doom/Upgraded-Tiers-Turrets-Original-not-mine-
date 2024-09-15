@@ -22,7 +22,7 @@ ammoTypes: {
       hittable: false
       homingPower: 0.04
       homingRange: 60
-      lifetime: 30
+      lifetime: 8
       speed: 32
       fragRandomSpread: 100
       fragAngle: 180
@@ -36,7 +36,7 @@ ammoTypes: {
         hittable: false
         homingPower: 0.1
         homingRange: 60
-        lifetime: 30
+        lifetime: 3
         speed: 32
         fragRandomSpread: 100
         fragAngle: 180
@@ -50,8 +50,8 @@ ammoTypes: {
           hittable: false
           homingPower: 0.5
           homingRange: 60
-          lifetime: 30
-          speed: 4
+          lifetime: 8
+          speed: 32
           fragRandomSpread: 100
           fragAngle: 180
           fragBullets: 1
