@@ -8,7 +8,7 @@ minWarmup: 0.96
 size: 5
 shootY: 0
 category: turret
-inaccuracy: 45
+inaccuracy: 20
 recoil: 5
 rotateSpeed: 0.8
 shootSound: plasmaCannon
