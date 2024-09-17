@@ -15,12 +15,13 @@ shootSound: plasmaCannon
 ammoTypes: {
   beryllium: {
       type: BasicBulletType
-      damage: 280
+      damage: 160
       collidesAir: false
       collideTerrain: true
       collidesGround: true
       hittable: false
-      homingPower: 0.04
+      homingPower: 1
+      homingDelay: 7
       homingRange: 60
       lifetime: 8
       speed: 32
@@ -29,30 +30,32 @@ ammoTypes: {
       fragBullets: 1
       fragBullet: {
         type: BasicBulletType
-        damage: 360
+        damage: 160
         collidesAir: false
         collideTerrain: true
         collidesGround: true
         hittable: false
-        homingPower: 0.1
+        homingPower: 1
+        homingDelay: 7
         homingRange: 60
-        lifetime: 3
+        lifetime: 8
         speed: 32
         fragRandomSpread: 100
         fragAngle: 180
         fragBullets: 1
         fragBullet: {
           type: BasicBulletType
-          damage: 590
+          damage: 160
           collidesAir: false
           collideTerrain: true
           collidesGround: true
           hittable: false
-          homingPower: 0.5
+          homingPower: 1
+          homingDelay: 7
           homingRange: 60
           lifetime: 8
           speed: 32
-          fragRandomSpread: 100
+          fragRandomSpread: 5
           fragAngle: 180
           fragBullets: 1
           fragBullet: {
