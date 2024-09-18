@@ -2,3 +2,6 @@ name: Extol
 description: Implodes incoming enemy targets. Doesnt shoot physical bullets
 range: 730
 rotationSpeed: 0
+consumes: {
+   power: 70
+}
