@@ -16,11 +16,11 @@ ammoTypes: {
   beryllium: {
       type: BasicBulletType
       damage: 160
-      collidesAir: false
-      collideTerrain: true
+      collidesAir: true
+      pierce: true
       collidesGround: true
       hittable: false
-      homingPower: 1
+      homingPower: 360
       homingDelay: 7
       homingRange: 60
       lifetime: 8
@@ -32,10 +32,10 @@ ammoTypes: {
         type: BasicBulletType
         damage: 160
         collidesAir: false
-        collideTerrain: true
+        pierce: true
         collidesGround: true
         hittable: false
-        homingPower: 1
+        homingPower: 360
         homingDelay: 7
         homingRange: 60
         lifetime: 8
@@ -47,10 +47,10 @@ ammoTypes: {
           type: BasicBulletType
           damage: 160
           collidesAir: false
-          collideTerrain: true
+          pierce: true
           collidesGround: true
           hittable: false
-          homingPower: 1
+          homingPower: 360
           homingDelay: 7
           homingRange: 60
           lifetime: 8
