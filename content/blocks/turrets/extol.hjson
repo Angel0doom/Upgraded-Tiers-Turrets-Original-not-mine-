@@ -5,3 +5,22 @@ rotationSpeed: 0
 consumes: {
    power: 70
 }
+reload: 500
+size: 6
+ammoTypes: {
+  beryllium: {
+    scaleLife: true
+    speed: 50
+    collides: false
+    damage: 0
+    fragBullets: 1
+    fragBullet: {
+      lifetime: 100
+      speed: 2
+      homingPower: 1
+      homingRange: 36
+      splashDamage: 25000
+      collides: false
+      splashDamageRadius: 20
+      fragBullets: 24
+      hitShake: 23
