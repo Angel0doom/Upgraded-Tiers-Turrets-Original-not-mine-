@@ -3,7 +3,7 @@ type: itemTurret
 description: Fires high potential bullets to deal immense damage at enemy targets
 catagory: turret
 ammoPerShot: 8
-inaccuracy: 1
+inaccuracy: 0
 size: 6
 shootSound: casing3Double
 reload: 90
@@ -13,7 +13,7 @@ recoil: 4
 range: 998
 warmupMaintainTime: 30
 ammoUseEffect: redgeneratespark
-targetInterval: 35
+targetInterval: 120
 warmupSpeed: 0.032
 maxAmmo: 12
 heatRequirement: 45
