@@ -49,9 +49,7 @@ ammoTypes: {
     hitSound: dynamicExplosion
     buildingDamageMultiplier: 0.01
     impact: true
-    knockback: 14
-    status: unmoving
-    statusDuration: 55
+    knockback: 52
     collidesAir: false
     damage: 630
     splashDamage: 70
@@ -77,7 +75,9 @@ ammoTypes: {
       splashDamage: 2650
       createChance: 0.15
       instantDisappear: true
+      status: devastation
       damage: 0
+      statusDuration: 55
       lightRadius: 128
       lightOpacity: 0.7
       despawnShake: 4.2
