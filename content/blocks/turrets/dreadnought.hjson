@@ -12,6 +12,8 @@ shake: 1.43
 recoil: 4
 range: 998
 warmupMaintainTime: 30
+minWarmup: 1
+linearWarmup: true
 ammoUseEffect: redgeneratespark
 targetInterval: 120
 warmupSpeed: 0.032
@@ -32,10 +34,12 @@ consumes: {
 }
 shoot: {
   shootType: ShootAlternate
+  shots: 4
   barrels: [
-    -1, 3, 0
-    -1, -3, 0
-    -3, 0, 0
+    3, 4, 0
+    3, -4, 0
+    -3, 4, 0
+    -3, -4, 0
   ]
 }
 ammoTypes: {
