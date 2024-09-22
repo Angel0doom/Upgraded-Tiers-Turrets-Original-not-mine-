@@ -22,7 +22,7 @@ type: shootBarrel
 recoil: 2
 ammoTypes: {
   tungsten: {
-     createChance: 0.3
+     createChance: 1
      type: BasicBulletType
      damage: 75
      splashDamageRadius: 16.3
