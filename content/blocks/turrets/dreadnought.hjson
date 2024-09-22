@@ -16,7 +16,7 @@ ammoUseEffect: redgeneratespark
 targetInterval: 35
 warmupSpeed: 0.032
 maxAmmo: 12
-heatRequirement: 2.999999992
+heatRequirement: 45
 maxHeatEfficiency: 2
 shootCone: 30
 accurateDelay: false
