@@ -50,7 +50,7 @@ ammoTypes: {
     buildingDamageMultiplier: 0.01
     impact: true
     knockback: 14
-    status: Deviation
+    status: unmoving
     statusDuration: 55
     collidesAir: false
     damage: 630
