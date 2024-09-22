@@ -1,4 +1,5 @@
 name: Dreadnought
+type: itemTurret
 description: Fires high potential bullets to deal immense damage at enemy targets
 catagory: turret
 ammoPerShot: 8
