@@ -75,7 +75,7 @@ ammoTypes: {
       splashDamage: 2650
       createChance: 0.15
       instantDisappear: true
-      status: devastation
+      status: devistation
       damage: 0
       statusDuration: 55
       lightRadius: 128
