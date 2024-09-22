@@ -46,7 +46,6 @@ ammoTypes: {
     hitSize: 2
     hitable: false
     hitEffect: plasticExplosionFlak
-    smokeEffect: shootLargeSmoke
     hitSound: dynamicExplosion
     buildingDamageMultiplier: 0.01
     impact: true
