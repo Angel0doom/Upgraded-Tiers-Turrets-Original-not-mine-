@@ -1,0 +1,91 @@
+name: Dreadnought
+description: Fires high potential bullets to deal immense damage at enemy targets
+catagory: turret
+ammoPerShot: 8
+inaccuracy: 1
+size: 6
+shootSound: casing3Double
+reload: 90
+rotateSpeed: 1.2
+shake: 1.43
+recoil: 4
+range: 998
+warmupMaintainTime: 30
+ammoUseEffect: redgeneratespark
+targetInterval: 35
+warmupSpeed: 0.032
+maxAmmo: 12
+heatRequirement: 2.999999992
+maxHeatEfficiency: 2
+shootCone: 30
+accurateDelay: false
+moveWhileCharging: false
+targetAir: false
+unitSort: strongest
+consumes: {
+  power: 5.5
+    liquids: {
+      liquid: flourine
+      amount: 0.8
+    }
+}
+shoot: {
+  shootType: ShootAlternate
+  barrels: [
+    -1, 3, 0
+    -1, -3, 0
+    -3, 0, 0
+  ]
+}
+ammoTypes: {
+  oxide: {
+    speed: 28
+    size: 2
+    length: 12
+    hitSize: 2
+    hitable: false
+    hitEffect: plasticExplosionFlak
+    smokeEffect: shootLargeSmoke
+    hitSound: dynamicExplosion
+    buildingDamageMultiplier: 0.01
+    impact: true
+    knockback: 14
+    status: Deviation
+    statusDuration: 55
+    collidesAir: false
+    damage: 630
+    splashDamage: 70
+    splashDamageRadius: 44
+    reflectable: false
+    makeFire: true
+    hitShake: 2.4
+    trailInterval: 1
+    trailWidth: 2
+    traillength: 12
+    incendAmount: 14
+    incendSpread: 14
+    lightRadius: 5
+    lightOpacity: 0.2
+    fragOnAbsorb: false
+    fragBullets: 1
+    fragVelocityMin: 0
+    fragVelocityMax: 0
+    fragBullet: {
+      speed: 0
+      lifetime: 0
+      splashDamageRadius: 34
+      splashDamage: 2650
+      createChance: 0.15
+      instantDisappear: true
+      damage: 0
+      lightRadius: 128
+      lightOpacity: 0.7
+      despawnShake: 4.2
+      despawnEffect: massiveExplosion
+      scaledSplashDamage: true
+    }
+  }
+}
+requirements: [
+  beryllium/1
+]
