@@ -1,0 +1,29 @@
+name: Attraction
+description: Fires explosive shrapnel at enemy targets. Gains temporary speed when near enemy targets.
+faceTargets: false
+speed: 5
+size: 1.63
+armour: 2
+flying: true
+lowAltitude: true
+health: 570
+targetAir: true
+weapons: [
+{
+name: cannon
+reload: 10
+rotateSpeed: 90
+range: 64
+shootStatus: buffattraction
+shootStatusDuration: 15                                                                                                    
+bullet: {
+  bulletType: BasicBulletType 
+  splashDamage: 10
+  splashDamageRadius: 30
+  damage: 25
+  speed: 6
+  lifetime: 10.5
+  knockback: -7
+}
+}
+]
