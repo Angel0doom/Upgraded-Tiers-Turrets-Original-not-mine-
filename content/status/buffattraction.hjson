@@ -1,0 +1,7 @@
+name: Targeting
+type: statusEffect
+speedMultiplier: 1.7
+damage: -2
+healthMultiplier: 1.4
+reloadMultiplier: 1.8
+color: 3f523d
