@@ -1,7 +1,7 @@
 name: Attraction
 description: Fires explosive shrapnel at enemy targets. Gains temporary speed when near enemy targets.
 faceTargets: false
-speed: 5
+speed: 1.2
 size: 1.63
 armour: 2
 flying: true
