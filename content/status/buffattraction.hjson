@@ -1,6 +1,6 @@
 name: Targeting
 type: statusEffect
-speedMultiplier: 1.7
+speedMultiplier: 2.7
 damage: -2
 healthMultiplier: 1.4
 reloadMultiplier: 1.8
