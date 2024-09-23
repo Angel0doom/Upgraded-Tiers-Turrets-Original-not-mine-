@@ -4,8 +4,8 @@ faceTargets: false
 speed: 1.2
 size: 1.63
 armour: 2
-flying: true
-lowAltitude: true
+circleTarget: true
+hovering: true
 health: 570
 targetAir: true
 weapons: [
