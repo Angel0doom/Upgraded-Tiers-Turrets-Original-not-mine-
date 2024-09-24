@@ -14,8 +14,9 @@ name: cannon
 reload: 10
 rotateSpeed: 90
 range: 64
-shootStatus: buffattraction
-shootStatusDuration: 15                                                                                                    
+x: 0
+y: 0
+mirror: false                                                                                              
 bullet: {
   bulletType: BasicBulletType 
   splashDamage: 10
